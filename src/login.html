@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,266 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/channe.css">
+    <link rel="stylesheet" href="./css/pass.css">
 </head>
+
 <body>
-    
+    <input type="hidden" id="m-refer" value="//m.yohobuy.com/signin.htm">
+    <div class="simple-header">
+        
+    </div>
+    <div class="login-page passport-page yoho-page clearfix">
+        <div style="font-size: 12px;text-align: center">
+            <div
+                style="display: inline-block;width: 990px; height: 25px; background-color: #f5f5f5; line-height: 25px; overflow: hidden; margin-top: 10px;">
+                <i class="iconfont" style="font-size: 12px;"></i>&nbsp;&nbsp;为保障账户安全与正常使用，依《网络安全法》相关要求，会员账号需绑定手机号。<span
+                    style="color: red;">如您尚未绑定手机号，请尽快完成，</span>感谢您对Yoho!Buy有货的理解与支持！
+            </div>
+        </div>
+        <div class="passport-cover">
+            <div class="cover-content">
+                <a href="https://www.yohobuy.com/sale/special/gd1.html?specialsale_id=1" target="_bank">
+                    <img class="cover-img"
+                        src="//img10.static.yhbimg.com/yhb-img01/2019/06/27/16/01aa2dc93bb34311db40aefe23470952a0.jpg?imageView2/2/w/252/h/190/q/90">
+                </a>
+            </div>
+        </div>
+        <form method="post" onsubmit="return false;">
+            <div class="content">
+                <ul class="login-ul">
+
+                    <div class="switch-login-type" data-type="MobileLogin">
+                        <div id="device-bg" class="type-desktop-bg">
+                            <P>扫码切换</P>
+                        </div>
+                        <div class="type-tip tip-title">
+                            <div id="device-tip" style="margin-left: 15px;margin-top: 8px">密码登录在这里</div>
+                        </div>
+                    </div>
+
+                    <div class="desktop-login hide">
+                        <li class="relative clearfix">
+                            <h2 class="title">会员登录</h2>
+                            <span id="country-code" class="country-code right">
+                                <em>中国 +86</em>
+                                <i class="iconfont"></i>
+                                <ul id="country-list" class="country-list">
+                                    <li data-cc="+61">澳大利亚 +61</li>
+                                    <li data-cc="+82">韩国 +82</li>
+                                    <li data-cc="+1">加拿大 +1</li>
+                                    <li data-cc="+60">马来西亚 +60</li>
+                                    <li data-cc="+1">美国 +1</li>
+                                    <li data-cc="+81">日本 +81</li>
+                                    <li data-cc="+65">新加坡 +65</li>
+                                    <li data-cc="+44">英国 +44</li>
+                                    <li data-cc="+86" selected="">中国 +86</li>
+                                    <li data-cc="+853">中国澳门 +853</li>
+                                    <li data-cc="+886">中国台湾 +886</li>
+                                    <li data-cc="+852">中国香港 +852</li>
+                                </ul>
+                            </span>
+                        </li>
+
+                        <li class="relative">
+                            <div class="switch ">
+                                <div class="left selected" data-type="PasswordLogin">普通登录</div>
+                                <div class="right " data-type="SMSLogin">手机验证码登录
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="relative password-login ">
+                            <input id="account1" class="account input va" name="account" value="" type="text"
+                                placeholder="邮箱/手机号码" autocomplete="off">
+                            <span class="err-tip hide">
+                                <i></i>
+                                <em></em>
+                            </span>
+                            <ul id="email-autocomplete" class="email-autocomplete hide"></ul>
+                        </li>
+
+                        <li class="relative password-login ">
+                            <input id="password" class="password input va" name="password" type="password"
+                                placeholder="密码" autocomplete="off" maxlength="20">
+                            <span id="caps-lock" class="caps-lock hide">大写状态开启</span>
+                            <span class="err-tip hide">
+                                <i></i>
+                                <em>请输入密码</em>
+                            </span>
+                        </li>
+
+                        <li class="clearfix password-login captcha-wrap ">
+                            <div class="img-check">
+                                <div class="img-check-header">
+                                    <span>请将下列图片点击翻转至正确方向</span>
+                                    <a class="img-check-refresh">换一批</a>
+                                </div>
+                                <div class="img-check-main">
+                                    <ul class="img-check-pics">
+                                        <li class="img-check-pic" data-val="0">
+                                            <img src="./img/layout/images.png" alt=""
+                                                style="margin-left: 0px; margin-top: 0px;">
+                                        </li>
+                                        <li class="img-check-pic" data-val="0">
+                                            <img src="./img/layout/images.png" alt=""
+                                                style="margin-left: -60px; margin-top: 0px;">
+                                        </li>
+                                        <li class="img-check-pic" data-val="0">
+                                            <img src="./img/layout/images.png" alt=""
+                                                style="margin-left: -120px; margin-top: 0px;">
+                                        </li>
+                                        <li class="img-check-pic last-child" data-val="0">
+                                            <img src="./img/layout/images.png" alt=""
+                                                style="margin-left: -180px; margin-top: 0px;">
+                                        </li>
+                                    </ul>
+
+                                    <span class="img-check-tip hide">
+                                        <i class="iconfont"></i>
+                                        <em>请将图形验证码翻转至正确方向</em>
+                                    </span>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="relative clearfix sms-login hide">
+                            <input id="account2" class="account input va" name="account2" value="" type="text"
+                                placeholder="手机号码" autocomplete="off">
+                            <span class="err-tip hide">
+                                <i></i>
+                                <em></em>
+                            </span>
+                        </li>
+
+                        <li class="clearfix sms-captcha-img-wrap sms-login  hide ">
+                            <div class="img-check">
+                                <div class="img-check-header">
+                                    <span>请将下列图片点击翻转至正确方向</span>
+                                    <a class="img-check-refresh">换一批</a>
+                                </div>
+                                <div class="img-check-main">
+                                    <ul class="img-check-pics">
+                                        <li class="img-check-pic" data-val="0">
+                                            <img src="//www.yohobuy.com/passport/images.png?t=1562381124344" alt=""
+                                                style="margin-left: 0px; margin-top: 0px;">
+                                        </li>
+                                        <li class="img-check-pic" data-val="0">
+                                            <img src="//www.yohobuy.com/passport/images.png?t=1562381124344" alt=""
+                                                style="margin-left: -60px; margin-top: 0px;">
+                                        </li>
+                                        <li class="img-check-pic" data-val="0">
+                                            <img src="//www.yohobuy.com/passport/images.png?t=1562381124344" alt=""
+                                                style="margin-left: -120px; margin-top: 0px;">
+                                        </li>
+                                        <li class="img-check-pic last-child" data-val="0">
+                                            <img src="//www.yohobuy.com/passport/images.png?t=1562381124344" alt=""
+                                                style="margin-left: -180px; margin-top: 0px;">
+                                        </li>
+                                    </ul>
+
+                                    <span class="img-check-tip hide">
+                                        <i class="iconfont"></i>
+                                        <em>请将图形验证码翻转至正确方向</em>
+                                    </span>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="relative clearfix sms-login hide">
+                            <input id="captcha-sms" class="input va captcha-sms-input" type="text" name="captcha"
+                                placeholder="短信验证码" autocomplete="off" maxlength="4">
+                            <div class="change-captcha-sms btn">获取短信验证码</div>
+                            <span class="err-tip hide">
+                                <i></i>
+                                <em></em>
+                            </span>
+                        </li>
+
+                        <li class="desktop-login hide">
+                            <span id="login-btn" class="login-btn btn">登录</span>
+                        </li>
+
+                        <li class="other-opts">
+                            <span class="remember-me checked">
+                                <i class="iconfont"></i>
+                                记住登录状态
+                            </span>
+                            <span class="right">
+                                <a class="forget-password" href="//www.yohobuy.com/passport/back/index">忘记密码?</a>
+                                |
+                                <a class="fast-reg" href="/reg.html?refer=https%3A%2F%2Fwww.yohobuy.com%2F">快速注册</a>
+                            </span>
+                        </li>
+
+                        <li class="third-party-login">
+                            <a href="//www.yohobuy.com/passport/autosign/wechat" data-type="4">
+                                <span class="icon weixin"></span>
+                            </a>
+                            <a href="//www.yohobuy.com/passport/autosign/sina" data-type="2">
+                                <span class="icon weibo"></span>
+                            </a>
+                            <a href="//www.yohobuy.com/passport/autosign/alipay" data-type="3">
+                                <span class="icon alipay"></span>
+                            </a>
+                        </li>
+
+                    </div>
+
+                    <div class="mobile-login">
+
+                        <li class="relative clearfix center qrcode-login-title">
+                            <div>
+                                手机扫码，安全登录
+                            </div>
+                        </li>
+
+
+                        <li class="relative clearfix center">
+                            <div id="qrcode-placeholder" style="width: 270px;height: 140px;"></div>
+                            <div id="qrcode-container" class="qrcode"
+                                title="http://m.yohobuy.com/signin.html?qr=oBAXEMSb0vWrZSQkk9ibDzm5sxephkBN2vwgDT8zQpLdo5vnGMfHBGRsa%2BAl6oxuQE9qp9H5CR%2FhthJQTuIebu67PLZ6yGxaIFgf5JoHyh0%3D">
+                                <canvas width="140" height="140" style="display: none;"></canvas><img alt="Scan me!"
+                                    src="data:image/png;base64,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"
+                                    style="display: block;"></div>
+                            <div id="qrcode-helper" class="qrcode-helper hide"></div>
+                            <div id="qrcode-hover" class="qrcode-hover"></div>
+                            <div id="qrcode-overlay" class=""></div>
+                        </li>
+
+                        <li class="relative clearfix">
+                            <div>
+                                <i class="scan"></i>
+                                <p class="scan-font">打开手机Yoho!Buy有货</p>
+                                <p class="scan-font">扫一扫登录</p>
+                            </div>
+                        </li>
+
+                        <li class="relative clearfix center">
+                            <div>
+                                <a class="download-link" href="//www.yohobuy.com/download/app">下载Yoho!Buy有货手机APP</a>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+
+                <input id="country-code-hide" name="countryCode" type="hidden" value="+86">
+                <input id="captcha-sms-token-hide" name="token" type="hidden" value="">
+                <input id="qrcode" name="qrcode" type="hidden"
+                    value="http://m.yohobuy.com/signin.html?qr=oBAXEMSb0vWrZSQkk9ibDzm5sxephkBN2vwgDT8zQpLdo5vnGMfHBGRsa%2BAl6oxuQE9qp9H5CR%2FhthJQTuIebu67PLZ6yGxaIFgf5JoHyh0%3D">
+                <input id="uid" type="hidden">
+
+            </div>
+        </form>
+    </div>
+    <div class="yoho-footer">
+    </div>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $('.simple-header').load("./log/loghreader.html")
+        $('.yoho-footer').load("footer.html")
+    </script>
 </body>
+
 </html>

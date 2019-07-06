@@ -296,7 +296,7 @@
     bottom: -17px;
     z-index: 3;
     visibility: hidden;
-    background: url(img/product/senior-up.png?16bc03ad45a) no-repeat;
+    background: url(../img/layout/senior-up.png) no-repeat;
     background-position: 50% 0
 }
 
@@ -559,7 +559,7 @@
     z-index: 3;
     margin-left: -11px;
     visibility: hidden;
-    background: url(img/product/senior-up.png?16bc03ad45a) no-repeat;
+    background: url(../img/layout/senior-up.png) no-repeat;
     background-position: 50% 0;
     top: -1px;
     top: 1px/9
@@ -1164,7 +1164,7 @@
     width: 50px;
     height: 50px;
     line-height: 60px;
-    background: #ffc513 url(img/product/hotrank/popular-icon.png?16bc03ad457) no-repeat 50%;
+    background: #ffc513 url(../img/layout/hotrank/popular-icon.png) no-repeat 50%;
     text-align: center;
     color: #ffc513;
     font-weight: 700
@@ -1417,7 +1417,7 @@
     height: 20px;
     margin-left: 6px;
     display: inline-block;
-    background-image: url(img/sprite.product.png?t=1562298235968);
+    background-image: url(../img/layout/sprite.product.png);
     background-position: -58px 0;
     background-size: 112px 138px;
     vertical-align: text-bottom
@@ -1576,7 +1576,7 @@
 .product-detail-page .main .new-festival-tag {
     width: 72px;
     text-align: center;
-    background-image: url(img/product/newPro-icon.png?16bc03ad457);
+    background-image: url(../img/layout/newPro-icon.png);
     color: #000;
     padding: 0
 }
@@ -1764,35 +1764,35 @@
     width: 43px;
     height: 18px;
     margin-right: 10px;
-    background: url(img/product/vip.png?16bc03ad45d) no-repeat
+    background: url(../img/layout/vip.png) no-repeat
 }
 
 .product-detail-page .main .vip-price .vip-level-1 {
     display: inline-block;
     width: 30px;
     height: 18px;
-    background: url(img/product/vip-1.png?16bc03ad45c) no-repeat
+    background: url(../img/layout/vip-1.png) no-repeat
 }
 
 .product-detail-page .main .vip-price .vip-level-2 {
     display: inline-block;
     width: 30px;
     height: 18px;
-    background: url(img/product/vip-2.png?16bc03ad45c) no-repeat
+    background: url(../img/layout/vip-2.png) no-repeat
 }
 
 .product-detail-page .main .vip-price .vip-level-3 {
     display: inline-block;
     width: 30px;
     height: 18px;
-    background: url(img/product/vip-3.png?16bc03ad45c) no-repeat
+    background: url(../img/layout/vip-3.png) no-repeat
 }
 
 .product-detail-page .main .vip-price .title {
     display: inline-block;
     width: 36px;
     height: 24px;
-    background: url(img/product/students-price-icon.png?16bc03ad45c) no-repeat;
+    background: url(../img/layout/students-price-icon.png) no-repeat;
     color: #fff;
     margin-top: -3px
 }
@@ -1898,7 +1898,7 @@
     top: 0;
     width: 5px;
     height: 18px;
-    background-image: url(img/sprite.product.png?t=1562298235968);
+    background-image: url(../img/layout/sprite.product.png);
     background-size: 112px 138px
 }
 
@@ -2036,7 +2036,7 @@
     display: block;
     width: 57px;
     height: 24px;
-    background: url(img/product/size-ruler.jpg?16bc03ad45b);
+    background: url(../img/layout/size-ruler.jpg);
     margin-bottom: 5px;
     cursor: pointer
 }
@@ -2147,7 +2147,7 @@
     left: -12px;
     width: 13px;
     height: 20px;
-    background: url(img/product/arrow.png?16bc03ad454)
+    background: url(../img/layout/arrow.png)
 }
 
 .product-detail-page .main .lc-content {
@@ -2880,7 +2880,7 @@
     height: 13px;
     width: 70px;
     cursor: pointer;
-    background: url(img/product/star.png?16bc03ad45b) 0 -29px repeat-x;
+    background: url(../img/layout/star.png) 0 -29px repeat-x;
     vertical-align: top
 }
 
@@ -2894,7 +2894,7 @@
 }
 
 .product-detail-page .cc-content .comment-star .star-1.active,.product-detail-page .cc-content .comment-star .star-2.active,.product-detail-page .cc-content .comment-star .star-3.active,.product-detail-page .cc-content .comment-star .star-4.active,.product-detail-page .cc-content .comment-star .star-5.active {
-    background: url(img/product/star.png?16bc03ad45b) repeat-x
+    background: url(../img/layout/star.png) repeat-x
 }
 
 .product-detail-page .cc-content .comment-star .star-2 {
@@ -2914,7 +2914,7 @@
 }
 
 .product-detail-page .cc-content .comment-star.editable>span:hover {
-    background: url(img/home/star.png?16bc03ad3fd) repeat-x
+    background: url(../img/layout/home/star.png) repeat-x
 }
 
 .product-detail-page .cc-content h2 {
@@ -3256,7 +3256,7 @@
 .product-detail-page .after-service .img-3 {
     width: 801px;
     height: 339px;
-    background: url(img/product/after-service.png?16bc03ad453)
+    background: url(../img/layout/after-service.png)
 }
 
 .product-detail-page .after-service a {
@@ -3347,21 +3347,21 @@
     width: 517px;
     height: 25px;
     margin: 45px auto;
-    background: url(img/product/service.png?16bc03ad45a)
+    background: url(../img/layout/service.png)
 }
 
 .product-detail-page .not-support-salereturned-service {
     width: 565px;
     height: 25px;
     margin: 45px auto;
-    background: url(img/product/limit.png?16bc03ad457)
+    background: url(../img/layout/limit.png)
 }
 
 .product-detail-page .not-support-15days {
     width: 565px;
     height: 27px;
     margin: 45px auto;
-    background: url(img/product/days15.png?16bc03ad455)
+    background: url(../img/layout/days15.png)
 }
 
 .product-detail-page .latest-walk {
@@ -3453,7 +3453,7 @@
 .product-detail-page .hot-point-wrap .pointer {
     position: absolute;
     display: block;
-    background: url(img/product/hp-num.png?16bc03ad457) no-repeat 0 0;
+    background: url(../img/layout/hp-num.png) no-repeat 0 0;
     color: #fff;
     cursor: pointer;
     width: 25px;
@@ -3746,7 +3746,7 @@
 .coupon-big .item-bg {
     width: 341px;
     height: 75px;
-    background: url(img/product/coupon-big.png?16bc03ad454) no-repeat;
+    background: url(../img/layout/coupon-big.png) no-repeat;
     margin: 20px auto
 }
 
@@ -3970,7 +3970,7 @@
     width: 135px;
     height: 200px;
     margin: 60px auto;
-    background: url(img/product/no-comment-pic.png?16bc03ad458) no-repeat;
+    background: url(../img/layout/no-comment-pic.png) no-repeat;
     background-size: 135px
 }
 
@@ -4109,7 +4109,7 @@
 .magnifier.move-object {
     height: 314px;
     width: 314px;
-    background: url(img/product/move.png?16bc03ad457);
+    background: url(../img/layout/move.png);
     right: 0
 }
 
@@ -4136,7 +4136,7 @@
     z-index: 2;
     top: 0;
     left: 0;
-    background: url(img/product/transparent.gif?16bc03ad45c)
+    background: url(../img/layout/transparent.gif)
 }
 
 .pkg-dialog {
@@ -4283,7 +4283,7 @@
     display: inline-block;
     width: 100px;
     height: 100px;
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/qr.png?16bc03ad40a);
+    background: url(../img/layout/qr.png);
     background-size: 100px
 }
 
@@ -4358,7 +4358,7 @@
 .consult-alert .content .consult-qr .qr-img {
     width: 100px;
     height: 100px;
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/qr.png?16bc03ad40a);
+    background: url(../img/layout/qr.png);
     background-repeat: no-repeat;
     background-size: 100px
 }
@@ -4366,7 +4366,7 @@
 .consult-alert .content .consult-qr .qr-line {
     width: 40px;
     height: 100px;
-    background: url(img/product/qr-line.png?16bc03ad458);
+    background: url(../img/layout/qr-line.png);
     background-repeat: no-repeat;
     background-size: 40px,100px
 }
@@ -4506,7 +4506,8 @@
     left: 0
 }
 
-.sale-page .slide-container li,.sale-page .slide-container li>a {
+
+.sale-page .slide-container li{
     width: 100%;
     height: 100%;
     display: block
@@ -4761,45 +4762,45 @@
 }
 
 .sale-page li.green.active {
-    background-image: url(img/sale/navactive-green-middle.png?16bc03ad45e)
+    background-image: url(../img/layout/navactive-green-middle.png)
 }
 
 .sale-page li.green.first.active {
-    background-image: url(img/sale/navactive-green-first.png?16bc03ad45e)
+    background-image: url(../img/layout/navactive-green-first.png)
 }
 
 .sale-page li.green.last.active {
-    background-image: url(img/sale/navactive-green-last.png?16bc03ad45e)
+    background-image: url(../img/layout/navactive-green-last.png)
 }
 
 .sale-page li.yellow.active {
     color: #fff;
-    background-image: url(img/sale/navactive-yellow-middle.png?16bc03ad45f);
+    background-image: url(../img/layout/navactive-yellow-middle.png);
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
 
 .sale-page li.yellow.first.active {
-    background-image: url(img/sale/navactive-yellow-first.png?16bc03ad45f)
+    background-image: url(../img/layout/navactive-yellow-first.png)
 }
 
 .sale-page li.yellow.last.active {
-    background-image: url(img/sale/navactive-yellow-last.png?16bc03ad45f)
+    background-image: url(../img/layout/navactive-yellow-last.png)
 }
 
 .sale-page li.red.active {
     color: #fff;
-    background-image: url(img/sale/navactive-red-middle.png?16bc03ad45f);
+    background-image: url(../img/layout/navactive-red-middle.png);
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
 
 .sale-page li.red.first.active {
-    background-image: url(img/sale/navactive-red-first.png?16bc03ad45e)
+    background-image: url(../img/layout/navactive-red-first.png)
 }
 
 .sale-page li.red.last.active {
-    background-image: url(img/sale/navactive-red-last.png?16bc03ad45e)
+    background-image: url(../img/layout/navactive-red-last.png)
 }
 
 @media screen and (min-width: 1150px) {
@@ -4996,7 +4997,7 @@
 }
 
 .sale-page .sale-vip-box .good-detail-text .vip-tag {
-    background-image: url(img/sale/vip.png?16bc03ad460);
+    background-image: url(../img/layout/vip.png);
     margin-left: 30px;
     width: 20px;
     height: 15px;
@@ -5005,21 +5006,21 @@
 }
 
 .sale-page .sale-vip-box .good-detail-text .vip-1 {
-    background-image: url(img/product/silver.png?16bc03ad45b);
+    background-image: url(../img/layout/silver.png);
     margin-left: 30px;
     width: 16px;
     height: 16px
 }
 
 .sale-page .sale-vip-box .good-detail-text .vip-2 {
-    background-image: url(img/product/golden.png?16bc03ad456);
+    background-image: url(../img/layout/golden.png);
     margin-left: 30px;
     width: 16px;
     height: 16px
 }
 
 .sale-page .sale-vip-box .good-detail-text .vip-3 {
-    background-image: url(img/product/platinum.png?16bc03ad458);
+    background-image: url(../img/layout/platinum.png);
     margin-left: 30px;
     width: 16px;
     height: 16px
@@ -5126,25 +5127,25 @@
 }
 
 .sale-discount-page .good-info .good-detail-text .vip-tag {
-    background-image: url(img/sale/vip.png?16bc03ad460);
+    background-image: url(../img/layout/vip.png);
     width: 20px;
     height: 15px
 }
 
 .sale-discount-page .good-info .good-detail-text .vip-1 {
-    background-image: url(img/product/silver.png?16bc03ad45b);
+    background-image: url(../img/layout/silver.png);
     width: 18px;
     height: 16px
 }
 
 .sale-discount-page .good-info .good-detail-text .vip-2 {
-    background-image: url(img/product/golden.png?16bc03ad456);
+    background-image: url(../img/layout/golden.pn);
     width: 18px;
     height: 16px
 }
 
 .sale-discount-page .good-info .good-detail-text .vip-3 {
-    background-image: url(img/product/platinum.png?16bc03ad458);
+    background-image: url(../img/layout/platinum.pn);
     width: 18px;
     height: 16px;
     margin-bottom: 1px
@@ -5195,14 +5196,14 @@
     display: block;
     width: 20px;
     height: 20px;
-    background: url(img/product/default-normal.png?16bc03ad455);
+    background: url(../img/layout/default-normal.png);
     float: left;
     margin: 0 10px;
     cursor: pointer
 }
 
 .sale-discount-page .sale-list-pagation span.active {
-    background: url(img/product/default-active.png?16bc03ad455)
+    background: url(../img/layout/default-active.png)
 }
 
 .sale-discount-page .header-title {
@@ -5331,7 +5332,7 @@
     height: 33px;
     color: #fff;
     text-align: center;
-    background: url(img/product/floor-title.png?16bc03ad456)
+    background: url(../img/layout/floor-title.png)
 }
 
 .sale-discount-page .new-floor-title .title {
@@ -5531,7 +5532,7 @@
     height: 33px;
     color: #fff;
     text-align: center;
-    background: url(img/product/floor-title.png?16bc03ad456)
+    background: url(../img/layout/floor-title.png)
 }
 
 .new-sale-page .new-floor-title .title {
@@ -5789,7 +5790,7 @@
     line-height: 22px;
     color: #fff;
     padding: 0 10px 0 20px;
-    background: url(img/product/discount-tag.png?16bc03ad456) no-repeat;
+    background: url(../img/layout/discount-tag.png) no-repeat;
     display: inline-block
 }
 
@@ -6029,7 +6030,6 @@
 .outlets-channel-page .slide-switch .next {
     right: 290px
 }
-
 .outlets-channel-page .thumb-pagination {
     width: 1148px;
     margin: 6px auto 0;
@@ -6384,7 +6384,7 @@
 
 .outlets-channel-page .logo-brand .logo-brand-switch {
     position: relative;
-    background: url(img/index/logo-brand-line.png?16bc03ad403) no-repeat 50%;
+    background: url(img/index/logo-brand-line.png) no-repeat 50%;
     line-height: normal
 }
 
@@ -6705,7 +6705,7 @@
     color: #fff;
     padding: 0 10px 0 20px;
     margin-left: 20px;
-    background: url(img/product/discount-tag.png?16bc03ad456) no-repeat;
+    background: url(../img/layout/discount-tag.png) no-repeat;
     display: inline-block
 }
 
@@ -6726,15 +6726,20 @@
     color: #fff
 }
 
-.shop-index-page .shop-banner .banner-img {
-    width: 100%;
-    height: 150px
-}
-
-.shop-index-page .shop-banner .banner-img .banner-mark {
+#slider .slide-wrapper .ba-img{
+    display:none;
     width: 100%;
     height: 100%;
-    background-image: url(img/product/banner-mark.png?16bc03ad454)
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+#slider .slide-wrapper  .banner-mark {
+    width: 100%;
+    height: 100%;
+    display: block!important
 }
 
 .shop-index-page .shop-banner .opt-wrap {
@@ -6768,20 +6773,20 @@
 .shop-index-page .shop-banner .shop-collect .shop-intro-ico,.shop-index-page .shop-banner .shop-intro .shop-intro-ico {
     width: 16px;
     height: 20px;
-    background-image: url(img/product/shop-instro.png?16bc03ad45a);
+    background-image: url(../img/layout/shop-instro.png);
     margin-right: 12px
 }
 
 .shop-index-page .shop-banner .shop-collect .shop-collect-ico,.shop-index-page .shop-banner .shop-intro .shop-collect-ico {
     width: 20px;
     height: 19px;
-    background-image: url(img/product/shop-collection.png?16bc03ad45a);
+    background-image: url(../img/layout/shop-collection.png);
     top: 6px;
     margin-right: 12px
 }
 
 .shop-index-page .shop-banner .shop-collect .shop-collect-ico.on,.shop-index-page .shop-banner .shop-intro .shop-collect-ico.on {
-    background-image: url(img/product/shop-collection-on.png?16bc03ad45a)
+    background-image: url(../img/layout/shop-collection-on.png)
 }
 
 .shop-index-page .shop-nav {
@@ -6854,7 +6859,7 @@
 
 .shop-index-page .search-empty .empty-icon {
     height: 172px;
-    background: url(img/product/search-bg.png?16bc03ad459) no-repeat 50%
+    background: url(../img/layout/search-bg.png) no-repeat 50%
 }
 
 .shop-index-page .search-empty>p {
@@ -7005,7 +7010,7 @@
     font-size: 14px;
     text-align: center;
     line-height: 57px;
-    background-image: url(img/sprite.product.png?t=1562298235970);
+    background-image: url(../img/layout/sprite.product.png);
     background-position: 0 0;
     background-size: 112px 138px
 }
@@ -7057,7 +7062,7 @@
 .shop-index-page .shop-intro-area .close-btn {
     width: 18px;
     height: 18px;
-    background-image: url(img/product/shop-instro-close.png?16bc03ad45a);
+    background-image: url(../img/layout/shop-instro-close.png);
     position: absolute;
     right: 20px;
     top: 20px;
@@ -7416,7 +7421,7 @@
     display: inline-block;
     position: relative;
     top: -7px;
-    background: url(img/product/arrow-left.png?16bc03ad453) no-repeat
+    background: url(../img/layout/arrow-left.png) no-repeat
 }
 
 .shop-index-page .page-nav a .page-next,.shop-index-page .page-nav a .page-prev {
@@ -7441,7 +7446,7 @@
     height: 10px;
     display: inline-block;
     vertical-align: middle;
-    background: url(img/product/arrow-right.png?16bc03ad453) no-repeat
+    background: url(../img/layout/arrow-right.png) no-repeat
 }
 
 .shop-index-page .page-nav .pages {
@@ -7512,30 +7517,30 @@
     line-height: 40px;
     text-align: center;
     cursor: pointer;
-    background-image: url(img/students/nav.png?16bc03ad47a);
+    background-image: url(../img/layout/nav.png);
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
 
 .stu-page .sort-nav .sort-item.active {
-    background-image: url(img/students/nav-active.png?16bc03ad479);
+    background-image: url(../img/layout/nav-active.png);
     color: #fff
 }
 
 .stu-page .sort-nav .sort-item.first {
-    background-image: url(img/students/nav-first.png?16bc03ad479)
+    background-image: url(../img/layout/nav-first.pn)
 }
 
 .stu-page .sort-nav .sort-item.first.active {
-    background-image: url(img/students/nav-first-active.png?16bc03ad479)
+    background-image: url(../img/layout/nav-first-active.png)
 }
 
 .stu-page .sort-nav .sort-item.last {
-    background-image: url(img/students/nav-last.png?16bc03ad479)
+    background-image: url(../img/layout/nav-last.png)
 }
 
 .stu-page .sort-nav .sort-item.last.active {
-    background-image: url(img/students/nav-last-active.png?16bc03ad479)
+    background-image: url(../img/layout/nav-last-active.png)
 }
 
 .stu-page .stu-rights {
@@ -7615,7 +7620,7 @@
 }
 
 .stu-page .stu-identity .identity-count .yoho-circle {
-    background-image: url(img/students/y-circle.png?16bc03ad47b);
+    background-image: url(../img/layout/y-circle.png);
     background-size: 100% 100%;
     width: 209px;
     height: 124px;
@@ -7623,7 +7628,7 @@
 }
 
 .stu-page .stu-identity .identity-count .give-coin {
-    background-image: url(img/students/red-bar.png?16bc03ad47a);
+    background-image: url(../img/layout/red-bar.png);
     background-size: 100% 100%;
     width: 259px;
     height: 25px;
@@ -7640,7 +7645,7 @@
 }
 
 .stu-page .stu-identity .identity-count .stu-num span {
-    background-image: url(img/students/num-bg.png?16bc03ad47a);
+    background-image: url(../img/layout/num-bg.png);
     background-size: 100% 100%;
     display: inline-block;
     color: #000;
@@ -7832,15 +7837,15 @@
 }
 
 .stu-page .stu-identity .identity-wrap .success-icon {
-    background-image: url(img/students/ok-status.png?16bc03ad47a)
+    background-image: url(../img/layout/ok-status.png)
 }
 
 .stu-page .stu-identity .identity-wrap .fail-icon {
-    background-image: url(img/students/fail-status.png?16bc03ad479)
+    background-image: url(../img/layout/fail-status.png)
 }
 
 .stu-page .stu-identity .identity-wrap .wait-icon {
-    background-image: url(img/students/wait-status.png?16bc03ad47b)
+    background-image: url(../img/layout/wait-status.png)
 }
 
 .stu-page .stu-identity .identity-wrap .identity-back-title {
@@ -7916,7 +7921,7 @@
 }
 
 .stu-page .good-info .good-detail-text>.price .stu-tag {
-    background-image: url(img/students/stu-tag.png?16bc03ad47b);
+    background-image: url(../img/layout/stu-tag.png);
     background-size: 100% 100%;
     padding: 2px;
     width: 40px;
@@ -8027,7 +8032,7 @@
     right: -20px;
     width: 35px;
     height: 35px;
-    background-image: url(img/students/close.png?16bc03ad478)
+    background-image: url(../img/layout/close.png)
 }
 
 .stu-dialog .close .iconfont {
@@ -8076,7 +8081,7 @@
     width: 16px;
     height: 14px;
     margin-right: 4px;
-    background-image: url(img/sprite.product.png?t=1562298235970);
+    background-image: url(img../img/layout/sprite.product.png);
     background-position: -58px -28px;
     background-size: 112px 138px;
     display: inline-block;
@@ -8364,7 +8369,7 @@
     height: 20px;
     margin-left: 6px;
     display: inline-block;
-    background-image: url(img/sprite.product.png?t=1562298235970);
+    background-image: url(../img/layout/sprite.product.png);
     background-position: -58px 0;
     background-size: 112px 138px;
     vertical-align: bottom
@@ -8389,7 +8394,7 @@
 .top-coupon-wrap .coupon-title {
     width: 164px;
     height: 100%;
-    background: #fff url(img/product/coupon-title.png?16bc03ad455) no-repeat 0;
+    background: #fff url(../img/layout/coupon-title.png) no-repeat 0;
     float: left
 }
 
@@ -8420,7 +8425,7 @@
 }
 
 .top-coupon-wrap .coupon-item:before {
-    background-image: url(img/sprite.product.png?t=1562298235970);
+    background-image: url(../img/layout/sprite.product.png);
     background-position: 0 -58px;
     left: -4px
 }
@@ -8436,7 +8441,7 @@
 }
 
 .top-coupon-wrap .coupon-item:after {
-    background-image: url(img/sprite.product.png?t=1562298235971);
+    background-image: url(../img/layout/sprite.product.png);
     background-position: -13px -58px;
     right: -4px
 }
@@ -8486,7 +8491,7 @@
 
 .top-coupon-wrap.num1 .coupon-title {
     width: 230px;
-    background-image: url(img/product/coupon-title-large.png?16bc03ad455)
+    background-image: url(../img/layout/coupon-title-large.png)
 }
 
 .top-coupon-wrap.num1 .coupon-list-wrap {
@@ -8915,11 +8920,11 @@
 .new-arrive-list .list-top-img {
     width: 100%;
     height: 110px;
-    background: url(img/product/season-sort.png?16bc03ad459) no-repeat
+    background: url(../img/layout/season-sort.pn) no-repeat
 }
 
 .new-arrive-list .list-top-img.hot-search-img {
-    background: url(img/product/hot-search.png?16bc03ad457) no-repeat
+    background: url(../img/layout/hot-search.png) no-repeat
 }
 
 .new-arrive-list .list-box {
@@ -9085,13 +9090,13 @@
     left: 66px;
     height: 32px;
     width: 32px;
-    background: url(img/guang/msg-reco.png?16bc03ad3e0) no-repeat;
+    background: url(../img/layout/msg-reco.png) no-repeat;
     background-size: 100% 100%;
     z-index: 100
 }
 
 .new-arrive-list .guang-box .type-icon.fashion-good {
-    background: url(img/guang/fashion-good.png?16bc03ad3df) no-repeat
+    background: url(../img/layout/fashion-good.png) no-repeat
 }
 
 .new-arrive-list .guang-box .msg-info {

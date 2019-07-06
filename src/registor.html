@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/channe.css">
+    <link rel="stylesheet" href="./css/pass.css">
+</head>
+
+<body>
+    <div class="simple-header">
+    </div>
+    <div class="passport-page yoho-page clearfix">
+        <div class="passport-cover">
+            <div class="cover-content">
+                <a href="inde.html" target="_bank">
+                    <img class="cover-img"
+                        src="./img/layout/01ea4451757e763c6ba32816e61ffe6235.jpg">
+                </a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="register-page">
+                <ul>
+                    <li class="clearfix">
+                        <select id="region" class="region" name="region">
+                            <option value="+61">澳大利亚</option>
+                            <option value="+82">韩国</option>
+                            <option value="+1">加拿大</option>
+                            <option value="+60">马来西亚</option>
+                            <option value="+1">美国</option>
+                            <option value="+81">日本</option>
+                            <option value="+65">新加坡</option>
+                            <option value="+44">英国</option>
+                            <option selected="selected" value="+86">中国</option>
+                            <option value="+853">中国澳门</option>
+                            <option value="+886">中国台湾</option>
+                            <option value="+852">中国香港</option>
+                        </select>
+                    </li>
+                    <li class="clearfix" data-index="0">
+                        <span id="country-code" class="country-code">+86</span>
+                        <input value="" id="phone-num" class="input va phone-num" type="text" name="phoneNum"
+                            placeholder="请输入手机号码" autocomplete="off">
+                    </li>
+
+                    <li id="captcha-img" class="w330 clearfix " data-index="1">
+                        <div class="img-check">
+                            <div class="img-check-header">
+                                <span>请将下列图片点击翻转至正确方向</span>
+                                <a class="img-check-refresh">换一批</a>
+                            </div>
+                            <div class="img-check-main">
+                                <ul class="img-check-pics">
+                                    <li class="img-check-pic" data-val="0">
+                                        <img src="./img/layout/images.png" alt=""
+                                            style="margin-left: 0px; margin-top: 0px;">
+                                    </li>
+                                    <li class="img-check-pic" data-val="0">
+                                        <img src="./img/layout/images.png" alt=""
+                                            style="margin-left: -60px; margin-top: 0px;">
+                                    </li>
+                                    <li class="img-check-pic" data-val="0">
+                                        <img src="./img/layout/images.png" alt=""
+                                            style="margin-left: -120px; margin-top: 0px;">
+                                    </li>
+                                    <li class="img-check-pic last-child" data-val="0">
+                                        <img src="./img/layout/images.png" alt=""
+                                            style="margin-left: -180px; margin-top: 0px;">
+                                    </li>
+                                </ul>
+
+                                <span class="img-check-tip hide">
+                                    <i class="iconfont"></i>
+                                    <em>请将图形验证码翻转至正确方向</em>
+                                </span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="clearfix" data-index="2">
+                        <input id="msg-captcha" class="input va msg-captcha" type="text" name="msgCaptcha"
+                            placeholder="短信验证码" autocomplete="off" maxlength="4">
+                        <input id="send-captcha" class="btn send-captcha" type="button" value="获取短信验证码">
+                        <span id="msg-tip" class="hide msg-tip">短信验证码已发送至您的手机，请查收</span>
+                    </li>
+
+                    <input type="text" name="name" style="position: fixed;visibility:hidden;">
+
+                    <li class="clearfix" data-index="3">
+                        <input id="pwd" class="input va pwd" name="pwd" placeholder="设置密码" autocomplete="off"
+                            maxlength="20" type="password">
+                        <div class="pwd-intensity-container">
+                            <span class="pwd-intensity low">低</span>
+                            <span class="pwd-intensity mid">中</span>
+                            <span class="pwd-intensity high">高</span>
+                        </div>
+                        <div id="pwd-tips" class="hide pwd-tips">
+                            <div class="default" id="pwd-tip1"><i></i>密码只支持6-20位字符</div>
+                            <div class="default" id="pwd-tip2"><i></i>由字母、 数字组合，不能包含特殊符号</div>
+                        </div>
+                    </li>
+
+                    <li class="clearfix" data-index="3">
+                        <input id="invite-code" class="input invite-code" name="inviteCode" placeholder="潮流口令(非必填)"
+                            autocomplete="off" maxlength="20" type="text">
+                    </li>
+
+                    <li class="items-container clearfix">
+                        <span>
+                            注册即表示您已阅读并同意<br>
+                            <a class="link go-yoho-items" href="javascript:;"
+                                target="_blank">有货用户服务协议</a>
+                            <a class="link go-yoho-items" href="javascript:;"
+                                target="_blank">有货隐私条款</a>
+                        </span>
+                    </li>
+                    <li class="clearfix reg-btn-area">
+                        <input name="refer" id="refer" type="hidden" value="">
+                        <input id="register-btn" class="btn register-btn disable" type="submit" value="立即注册"
+                            disabled="">
+                        <div class="qrcode-hover-reg">
+                            <a class="qrcode-reg" href="javascript:;" target="_blank">
+                                <i class="qrcode-icon"></i>
+                            </a>
+                            <div class="download-app-box">
+                                <div class="qr-img"></div>
+                                <h3 class="qr-words">扫描二维码</h3>
+                                <h3 class="qr-words">下载YohoBuy手机端</h3>
+                                <h3 class="qr-more">
+                                    <a href="javascript:void(0);" target="_blank">更多客户端下载</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="quick-login-container">
+                        我已注册YOHO!BUY 有货账号
+                        <a class="link go-login" href="login.html">快速登录</a>
+                    </li>
+
+
+                </ul>
+                <div id="err-tip" class="err-tip hide">
+                    <span></span>
+                    <b></b>
+                </div>
+                <input name="" type="hidden" id="open-id" value="">
+                <input name="" type="hidden" id="source-type" value="">
+            </div>
+        </div>
+    </div>
+
+    <div class="yoho-footer">
+
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $('.simple-header').load("./log/loghreader.html")
+        $('.yoho-footer').load("footer.html")
+    </script>
+</body>
+
+</html>

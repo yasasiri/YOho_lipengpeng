@@ -93,7 +93,7 @@
     padding-top: 7px;
     width: 160px!important;
     height: 72px;
-    background-image: url(img/sprite.passport.png?t=1557212912634);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -148px -158px;
     background-size: 595px 298px;
     font-size: 12px
@@ -116,7 +116,7 @@
     margin: -7px 0 0;
     width: 14px;
     height: 14px;
-    background-image: url(img/sprite.passport.png?t=1557212912634);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -558px -35px;
     background-size: 595px 298px
 }
@@ -130,7 +130,7 @@
 }
 
 .passport-page .pwd-tips>div.no i,.passport-page .pwd-tips>div.yes i {
-    background-image: url(img/sprite.passport.png?t=1557212912634);
+    background-image: url(../img/layout/sprite.passport.png);
     background-size: 595px 298px
 }
 
@@ -173,7 +173,7 @@
     margin-right: 5px;
     width: 14px;
     height: 14px;
-    background-image: url(img/sprite.passport.png?t=1557212912634);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -514px -35px;
     background-size: 595px 298px
 }
@@ -283,7 +283,7 @@
     margin-right: 5px;
     width: 14px;
     height: 14px;
-    background-image: url(img/sprite.passport.png?t=1557212912635);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -514px -35px;
     background-size: 595px 298px
 }
@@ -380,7 +380,7 @@
 }
 
 .login-page .third-party-login .qq,.login-page .third-party-login .weixin {
-    background-image: url(img/sprite.passport.png?t=1557212912635);
+    background-image: url(../img/layout/sprite.passport.png);
     background-size: 595px 298px
 }
 
@@ -393,7 +393,7 @@
 }
 
 .login-page .third-party-login .alipay,.login-page .third-party-login .weibo {
-    background-image: url(img/sprite.passport.png?t=1557212912635);
+    background-image: url(../img/layout/sprite.passport.png);
     background-size: 595px 298px
 }
 
@@ -417,7 +417,7 @@
 .login-page .switch {
     width: 100%;
     height: 27px;
-    background-image: url(img/sprite.passport.png?t=1557212912635);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -323px 0;
     background-size: 595px 298px;
     border-radius: 13px;
@@ -436,7 +436,7 @@
 }
 
 .login-page .switch .left.selected {
-    background-image: url(img/sprite.passport.png?t=1557212912635);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -323px -35px;
     background-size: 595px 298px;
     color: #fff
@@ -454,7 +454,7 @@
 }
 
 .login-page .switch .right.selected {
-    background-image: url(img/sprite.passport.png?t=1557212912635);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -323px -35px;
     background-size: 595px 298px;
     color: #fff
@@ -470,34 +470,36 @@
 .login-page .switch-login-type .type-tip {
     width: 120px;
     height: 30px;
-    background-image: url(img/sprite.passport.png?t=1557212912635);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -323px -70px;
     background-size: 595px 298px;
     float: right
 }
 
 .login-page .switch-login-type .type-desktop-bg {
-    background-position: -323px -108px
+    background-position: -323px -108px;
+    border: 1px solid #000;
 }
 
 .login-page .switch-login-type .type-desktop-bg,.login-page .switch-login-type .type-mobile-bg {
     width: 40px;
     height: 40px;
-    background-image: url(img/sprite.passport.png?t=1557212912635);
+    background-image: url(../img/layout/sprite.passport.png);
     background-size: 595px 298px;
     float: right;
     cursor: pointer
 }
 
 .login-page .switch-login-type .type-mobile-bg {
-    background-position: -369px -108px
+    background-position: -369px -108px;
+    border: 1px solid #000;
 }
 
 .login-page .scan {
     display: block;
     width: 30px;
     height: 29px;
-    background-image: url(img/sprite.passport.png?t=1557212912635);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -477px -35px;
     background-size: 595px 298px;
     float: left;
@@ -542,7 +544,7 @@
 
 .login-page .qrcode-helper,.login-page .qrcode-overlay-success {
     position: absolute;
-    background-image: url(img/sprite.passport.png?t=1557212912635)!important;
+    background-image: url(../img/layout/sprite.passport.png)!important;
     background-size: 595px 298px!important
 }
 
@@ -564,7 +566,7 @@
 
 .login-page .qrcode-overlay-fail {
     position: absolute;
-    background-image: url(img/sprite.passport.png?t=1557212912635)!important;
+    background-image: url(../img/layout/sprite.passport.png)!important;
     background-position: -175px 0!important;
     background-size: 595px 298px!important;
     top: 0;
@@ -812,7 +814,7 @@
     margin-right: 5px;
     width: 12px;
     height: 12px;
-    background-image: url(img/sprite.passport.png?t=1557212912636);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -580px -35px;
     background-size: 595px 298px;
     content: ""
@@ -836,7 +838,7 @@
     display: block;
     width: 17px;
     height: 9px;
-    background-image: url(img/sprite.passport.png?t=1557212912636);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -488px -108px;
     background-size: 595px 298px
 }
@@ -865,7 +867,7 @@
     margin-right: 5px;
     width: 29px;
     height: 29px;
-    background-image: url(img/sprite.passport.png?t=1557212912636);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -415px -108px;
     background-size: 595px 298px;
     content: ""
@@ -910,7 +912,7 @@
 .register-page .qrcode-hover-reg .qrcode-icon {
     width: 28px;
     height: 28px;
-    background-image: url(img/sprite.passport.png?t=1557212912636);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -452px -108px;
     background-size: 595px 298px;
     display: inline-block;
@@ -937,14 +939,14 @@
     display: inline-block;
     width: 8px;
     height: 16px;
-    background-image: url(img/sprite.passport.png?t=1557212912636);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -323px -156px;
     background-size: 595px 298px
 }
 
 .register-page .qrcode-hover-reg .download-app-box .qr-img {
     position: relative;
-    background-image: url(img/layout/qr.png?16a911ed920);
+    background-image: url(../img/layout/qr.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: 32px auto 15px;
@@ -1355,7 +1357,7 @@
 }
 
 .welcome-page .go-shopping div {
-    background-image: url(img/passport/go-shopping.png?16a911ed931)
+    background-image: url(../img/layout/go-shopping.png)
 }
 
 .welcome-page .complete-info {
@@ -1364,7 +1366,7 @@
 }
 
 .welcome-page .complete-info div {
-    background-image: url(img/passport/edit-info.png?16a911ed930)
+    background-image: url(../img/layout/edit-info.png)
 }
 
 .third-relate-page {
@@ -1412,7 +1414,7 @@
     padding-left: 50px;
     min-height: 54px;
     width: 490px;
-    background: url(img/passport/warn.png?16a911ed96c) no-repeat;
+    background: url(../img/layout/warn.png) no-repeat;
     text-align: center
 }
 
@@ -1529,7 +1531,7 @@
     margin-right: 5px;
     width: 14px;
     height: 14px;
-    background-image: url(img/sprite.passport.png?t=1557212912636);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -514px -35px;
     background-size: 595px 298px;
     vertical-align: middle
@@ -1870,7 +1872,7 @@
     width: 21px;
     height: 100%;
     background-color: #d8d8d8;
-    background-image: url(img/passport/arrowbottom.png?16a911ed928);
+    background-image: url(../img/layout/arrowbottom.png);
     background-position: 50%;
     background-repeat: no-repeat;
     line-height: 33px
@@ -1943,7 +1945,7 @@
     width: 13px;
     height: 13px;
     background-color: #4c4c4c;
-    background-image: url(img/passport/choosed.png?16a911ed929);
+    background-image: url(../img/layout/choosed.png);
     background-position: 50%;
     background-repeat: no-repeat
 }
@@ -2048,7 +2050,7 @@
     margin-right: 28px;
     width: 29px;
     height: 29px;
-    background-image: url(img/passport/bindsuccess.png?16a911ed929);
+    background-image: url(../img/layout/bindsuccess.png);
     background-repeat: no-repeat
 }
 
@@ -2247,7 +2249,7 @@
     padding-top: 7px;
     width: 160px!important;
     height: 72px;
-    background-image: url(img/sprite.passport.png?t=1557212912636);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -148px -158px;
     background-size: 595px 298px;
     background-color: #fff;
@@ -2271,7 +2273,7 @@
     margin: -7px 0 0;
     width: 14px;
     height: 14px;
-    background-image: url(img/sprite.passport.png?t=1557212912636);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -558px -35px;
     background-size: 595px 298px
 }
@@ -2285,7 +2287,7 @@
 }
 
 .pwd-tips>div.no i,.pwd-tips>div.yes i {
-    background-image: url(img/sprite.passport.png?t=1557212912636);
+    background-image: url(../img/layout/sprite.passport.png);
     background-size: 595px 298px
 }
 
@@ -2328,7 +2330,7 @@
     margin-right: 5px;
     width: 14px;
     height: 14px;
-    background-image: url(img/sprite.passport.png?t=1557212912636);
+    background-image: url(../img/layout/sprite.passport.png);
     background-position: -514px -35px;
     background-size: 595px 298px
 }
@@ -2370,7 +2372,7 @@
     left: 10px;
     width: 17px;
     height: 9px;
-    background: url(img/passport/angle.png?16a911ed928)
+    background: url(../img/layout/angle.png)
 }
 
 .welcome-item:after {
@@ -2393,7 +2395,7 @@
     width: 240px;
     max-width: 240px;
     height: 200px;
-    background: url(img/passport/welcome.jpg?16a911ed96c) no-repeat
+    background: url(../img/layout/welcome.jpg) no-repeat
 }
 
 .welcome-item .welcome-body-right {

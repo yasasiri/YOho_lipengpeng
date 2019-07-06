@@ -55,8 +55,8 @@ body {
 
 @font-face {
     font-family: iconfont;
-    src: url(font/iconfont.eot?16bc03ad47c);
-    src: url(font/iconfont.eot?&16bc03ad47c#iefix) format("embedded-opentype"),url(font/iconfont.woff?16bc03ad47c) format("woff"),url(font/iconfont.ttf?16bc03ad47c) format("truetype"),url(font/iconfont.svg?16bc03ad47c#iconfont) format("svg")
+    src: url(http://10.31.158.25/1905/YOho_lipengpeng/src/fonts/iconfont.eot);
+    src: url(http://10.31.158.25/1905/YOho_lipengpeng/src/fonts/iconfont.eot) format("embedded-opentype"),url(http://10.31.158.25/1905/YOho_lipengpeng/src/fonts/iconfont.woff) format("woff"),url(http://10.31.158.25/1905/YOho_lipengpeng/src/fonts/iconfont.ttf) format("truetype"),url(http://10.31.158.25/1905/YOho_lipengpeng/src/fonts/iconfont.svg?16bc03ad47c#iconfont) format("svg")
 }
 
 .iconfont {
@@ -503,7 +503,7 @@ img {
     margin: 0 auto;
     border-radius: 50%;
     overflow: hidden;
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/default-thumb.png?16bc03ad405) 50%;
+    background: url(../img/layout/default-thumb.png?16bc03ad405) 50%;
     filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod="scale")";
     background-size: 100% 100%;
     -moz-background-size: 100% 100%
@@ -616,14 +616,14 @@ img {
 
 .yoho-header .tool-wrapper .download-app-box .qr-img {
     position: relative;
-    background-image: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/qr-wenle.png?16bc03ad40a);
+    background-image: url(../img/layout/qr-wenle.png?16bc03ad40a);
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
 
 .yoho-header .tool-wrapper .download-app-box .we-chat-img {
     position: relative;
-    background-image: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/qr-wenle-wechat.png?16bc03ad40a);
+    background-image: url(../img/layout/qr-wenle-wechat.png?16bc03ad40a);
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
@@ -770,7 +770,7 @@ img {
 }
 
 .yoho-header .head-wrapper .outlets-logo {
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/outlets.png?16bc03ad408) no-repeat 50%;
+    background: url(../img/layout/outlets.png?16bc03ad408) no-repeat 50%;
     width: 200px;
     height: 34px;
     left: 45%;
@@ -780,7 +780,7 @@ img {
 }
 
 .yoho-header .head-wrapper .main-logo {
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/logo-en.png?16bc03ad407) no-repeat 50%;
+    background: url(../img/layout/logo-en.png?16bc03ad407) no-repeat 50%;
     width: 182px;
     height: 53px;
     left: 43%;
@@ -799,11 +799,11 @@ img {
 }
 
 .yoho-header .head-wrapper .main-logo.logo-cn {
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/logo-cn.png?16bc03ad407) no-repeat 50%
+    background: url(../img/layout/logo-cn.png?16bc03ad407) no-repeat 50%
 }
 
 .yoho-header .head-wrapper .main-logo.logo-cn-ie {
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/logo-cn-ie.png?16bc03ad407) no-repeat 50%
+    background: url(../img/layout/logo-cn-ie.png?16bc03ad407) no-repeat 50%
 }
 
 .yoho-header .head-wrapper .func-area {
@@ -836,7 +836,7 @@ img {
 }
 
 .yoho-header .head-wrapper .search-2016 .search-btn {
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/search.png?16bc03ad40a) no-repeat 50%;
+    background: url(../img/layout/search.png?16bc03ad40a) no-repeat 50%;
     width: 78px;
     height: 28px;
     float: right;
@@ -957,7 +957,7 @@ img {
 
 .yoho-header .head-wrapper .go-cart .goods-num-tip {
     position: absolute;
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/ic-information.png?16bc03ad406) no-repeat;
+    background: url(../img/layout/ic-information.png?16bc03ad406) no-repeat;
     width: 27px;
     height: 20px;
     top: -10px;
@@ -981,13 +981,13 @@ img {
 .yoho-header .head-wrapper .mini-cart-wrapper .empty-cart {
     padding: 280px 0 200px;
     text-align: center;
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/empty_car.png?16bc03ad406) no-repeat 106px 132px
+    background: url(../img/layout/empty_car.png?16bc03ad406) no-repeat 106px 132px
 }
 
 .yoho-header .head-wrapper .mini-cart-wrapper .loading-cart {
     padding: 200px 0;
     text-align: center;
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/loading.gif?16bc03ad407) no-repeat center 170px
+    background: url(../img/layout/loading.gif?16bc03ad407) no-repeat center 170px
 }
 
 .yoho-header .head-wrapper .mini-cart-wrapper .rich-cart {
@@ -1165,7 +1165,7 @@ img {
     display: block;
     width: 26px;
     height: 12px;
-    background-image: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/new.png?16bc03ad408);
+    background-image: url(../img/layout/new.png?16bc03ad408);
     background-repeat: no-repeat;
     position: absolute;
     right: -29px;
@@ -1715,7 +1715,7 @@ img {
 .code-down-box .code-img {
     width: 116px;
     height: 116px;
-    background-image: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/cover-qr-large.png?16bc03ad405);
+    background-image: url(../img/layout/cover-qr-large.png?16bc03ad405);
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
@@ -2111,11 +2111,11 @@ img {
     width: 100%;
     height: 100%;
     margin-top: 5px;
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/ebsIcon-new.png) no-repeat
+    background: url(../img/layout/ebsIcon-new.png) no-repeat
 }
 
 .yoho-footer .footer-link .police {
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/police.png) no-repeat;
+    background: url(../img/layout/police.png) no-repeat;
     height: 20px;
     display: inline-block;
     padding-left: 25px
@@ -3163,7 +3163,7 @@ img {
     display: inline-block;
     width: 100px;
     height: 100px;
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/app-icon.png?16bc03ad405)
+    background: url(../img/layout/app-icon.png?16bc03ad405)
 }
 
 .invalid-ie .invalid-ie-content .app-qrcode {
@@ -3174,7 +3174,7 @@ img {
     padding: 4px;
     margin-left: 16px;
     margin-bottom: 2px;
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/app-qrcode.png?16bc03ad405)
+    background: url(../img/layout/app-qrcode.png?16bc03ad405)
 }
 
 .invalid-ie .invalid-ie-content .spokesman {
@@ -3183,7 +3183,7 @@ img {
     height: 356px;
     bottom: 0;
     right: 20px;
-    background: url(http://10.31.158.25/1905/YOho_lipengpeng/src/img/layout/spokesman.png?16bc03ad40b)
+    background: url(../img/layout/spokesman.png?16bc03ad40b)
 }
 
 .bind-info-wrapper {
