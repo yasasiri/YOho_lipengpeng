@@ -11,10 +11,1472 @@
         content="YOHO!BUY有货SALE频道提供男装折扣，精致品牌男装sale,男装,针织衫,外套 卫衣,衬衫,T恤/POLO衫,裤子,品牌男鞋等限时特惠。YOHO!BUY有货男装折扣,100%正品保证！">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/channe.css">
+    <style>
+        body {
+            min-height: 3750px
+        }
+
+        .yoho-page>div {
+            display: none
+        }
+
+        .slider {
+            min-height: 450px;
+        }
+
+        .thumb-pagination {
+            min-height: 50px;
+        }
+
+        .activity-entry {
+            min-height: 117.5px;
+        }
+
+        .brand-sale {
+            min-height: 563px;
+        }
+
+        .sale-box {
+            min-height: 596px;
+        }
+
+        .yoho-footer {
+            min-height: 335px;
+        }
+    </style>
 </head>
 
 <body>
     <div id="yoho-header" class="yoho-header boys">
+        <div class="tool-wrapper clearfix">
+            <div class="center-content">
+                <div class="yoho-group-map left">
+                    <span class="icon-hamburger"></span>
+                    <a href="javascript:;">YOHO!BUY 有货</a>
+                    <ul class="yoho-group-list">
+                        <li>
+                            <a href="javascript:;" class="yoho-group" data-en="YOHO!" data-cn="集团官网">YOHO!</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="yoho-group" data-en="YOHO!BOYS" data-cn="男生潮流">YOHO!BOYS</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="yoho-group" data-en="YOHO!GIRLS" data-cn="女生潮流">YOHO!GIRLS</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="yoho-group" data-en="Mars" data-cn="新鲜好去处">Mars</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="yoho-group" data-en="YO'HOOD" data-cn="潮流嘉年华">YO'HOOD</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="left swindle-info">
+                    <span class="icon-note"></span>
+                    <a href="javascript:;" target="_blank">
+                        关于防诈骗的重要提醒
+                    </a>
+                </div>
+                <div class="yoho-buy-tools right">
+                    <ul>
+                        <li id="loginBox">
+                            <span class="hi">Hi~</span>
+                            [ <a id="signin-url" href="login.html" class="loginbar">请登录</a> ]
+                            [ <a id="reg-url" href="registor" class="registbar">免费注册</a> ]
+                        </li>
+                        <li class="myyoho" id="myYohoBox">
+                            <span class="tag-seprate"></span>
+                            <a href="javascript:;">MY有货</a>
+                            <span class="icon-bottomarrow"></span>
+                            <div class="simple-user-center"></div>
+                        </li>
+                        <li class="myorder">
+                            <span class="tag-seprate"></span>
+                            <span class="icon-papers"></span>
+                            <a href="details.html">我的订单</a>
+                        </li>
+                        <li class="mycollect">
+                            <span class="tag-seprate"></span>
+                            <span class="icon-heart"></span>
+                            <a href="javascript:;">我的收藏</a>
+                        </li>
+                        <li class="message">
+                            <span class="tag-seprate"></span>
+                            <span class="icon-mail"></span>
+                            <a href="javascript:;">消息</a>
+                        </li>
+                        <li class="help nav-drop-down-container">
+                            <span class="tag-seprate"></span>
+                            <span class="iconfont"></span>
+                            <a href="#">客户服务</a>
+                            <ul class="nav-drop-down">
+                                <li>
+                                    <a href="javascript:;" target="_blank">在线客服</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">帮助中心</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="we-chat download-code">
+                            <span class="tag-seprate"></span>
+                            <span class="iconfont"></span>
+                            <a href="">关注有货</a>
+                            <div class="download-app-box">
+                                <div class="we-chat-img code-img"></div>
+                                <h5 class="qr-words">微信扫一扫</h5>
+                                <h5 class="qr-words">关注公众号，送球鞋</h5>
+                            </div>
+                        </li>
+                        <li class="phoneapp download-code" id="phoneApp">
+                            <span class="tag-seprate"></span>
+                            <span class="icon-phone"></span>
+                            <a href="javascript:;">手机版</a>
+                            <div class="download-app-box">
+                                <div class="qr-img code-img"></div>
+                                <h5 class="qr-words">下载手机客户端</h5>
+                                <h5 class="qr-more">
+                                    <a href="javascript:;">更多客户端</a>
+                                </h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="head-wrapper clearfix">
+            <div class="center-content">
+                <div class="outlets-logo"></div>
+                <h1 class="main-logo" style="transform: rotateX(1080deg);"><a href="javascript:;" class="main-link"
+                        title="YOHO!BUY 有货-潮流服饰,潮流女装,潮流男装,时尚潮流购物网站"></a></h1>
+                <ul class="main-nav-list">
+                    <li class="boys cure">
+                        <h5 class="name-cn">
+                            <a href="javascript:;">男生</a>
+                        </h5>
+                        <h5 class="name-en">
+                            <a href="javascript:;">BOYS</a>
+                        </h5>
+                    </li>
+                    <li class="girls">
+                        <h5 class="name-cn">
+                            <a href="javascript:;">女生</a>
+                        </h5>
+                        <h5 class="name-en">
+                            <a href="javascript:;">GIRLS</a>
+                        </h5>
+                    </li>
+                    <li class="kids">
+                        <h5 class="name-cn">
+                            <a href="javascript:;">潮童</a>
+                        </h5>
+                        <h5 class="name-en">
+                            <a href="javascript:;">KIDS</a>
+                        </h5>
+                    </li>
+                    <li class="lifestyle">
+                        <h5 class="name-cn">
+                            <a href="javascript:;">创意生活</a>
+                        </h5>
+                        <h5 class="name-en">
+                            <a href="javascript:;">LIFE STYLE</a>
+                        </h5>
+                    </li>
+                </ul>
+                <div class="func-area">
+                    <ul class="search-suggest"></ul>
+                    <ul class="search-suggest-history"></ul>
+                    <div class="search-2016">
+                        <form action="javascript:;" method="get" id="search-form">
+                            <input class="search-key" type="text" name="query" id="query-key" autocomplete="off"
+                                x-webkit-speech="" lang="zh-CN" x-webkit-grammar="builtin:translate" value=""
+                                maxlength="30" style="color: rgb(153, 153, 153);">
+                            <a class="search-btn" href="javascript:submitSearch();"></a>
+                        </form>
+                        <ul class="search-hot">
+                            <li>
+                                <a style="display: block;" href="javascript:;" title="短袖T恤" act="javascript:;"
+                                    target="_blank">
+                                    <span class="searchvalue">短袖T恤</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="display: block;" href="javascript:;" title="短裤" act="javascript:;"
+                                    target="_blank">
+                                    <span class="searchvalue">短裤</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="display: block;" href="javascript:;" title="拖鞋" act="javascript:;"
+                                    target="_blank">
+                                    <span class="searchvalue">拖鞋</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="display: block;" href="javascript:;" title="Lee限时折上满999-200"
+                                    act="javascript:;" target="_blank">
+                                    <span class="searchvalue">Lee限时折上满999-200</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="display: block;" href="javascript:;" title="nike" act="javascript:;"
+                                    target="_blank">
+                                    <span class="searchvalue">nike</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="display: block;" href="javascript:;" title="优衣库" act="javascript:;"
+                                    target="_blank">
+                                    <span class="searchvalue">优衣库</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="display: block;" href="javascript:;" title="PUMA" act="javascript:;"
+                                    target="_blank">
+                                    <span class="searchvalue">PUMA</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="display: block;" href="javascript:;" title="29元T恤" act="javascript:;"
+                                    target="_blank">
+                                    <span class="searchvalue">29元T恤</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="display: block;" href="javascript:;" title="帽子" act="javascript:;"
+                                    target="_blank">
+                                    <span class="searchvalue">帽子</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a style="display: block;" href="javascript:;" title="AJ" act="javascript:;"
+                                    target="_blank">
+                                    <span class="searchvalue">AJ</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="go-cart">
+                        <a href="javascript:;">
+                            <span class="iconfont "></span>
+                            <span class="goods-num-tip hide">0</span>
+                        </a>
+                        <div class="mini-cart-wrapper">
+                            <div class="loading-cart">
+                                <h3>加载中，请稍后</h3>
+                            </div>
+                            <div class="empty-cart">
+                                <h3>您的购物车暂无商品</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-wrapper clearfix">
+            <div class="center-content">
+                <ul class="sub-nav-list boys cure">
+                    <li>
+                        <a href="javascript:;">新品到着
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">品牌一览
+                        </a>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">服饰
+                        </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="category-list">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">上装</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">T恤</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">衬衫</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">POLO衫</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">背心</a>
+                                    </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">下装</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">短裤</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">休闲裤</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">牛仔裤</a>
+                                    </dd>
+                                </dl>
+                                <dl class="category-list">
+                                    <dd>
+                                        <a href="javascript:;">运动裤</a>
+                                    </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">MADNESS</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">STORE
+                                            by NIGO®</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">STAYREAL</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Genanx</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Levi’s</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">DC</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">:CHOCOOLATE</a>
+                                    </dd>
+                                </dl>
+                                <dl class="category-list">
+                                    <dd>
+                                        <a href="javascript:;" class="hot">G-Star
+                                            RAW</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">RED CHARCOAL</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Lee</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Dickies</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">SuaMoment</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">DUSTY</a>
+                                    </dd>
+                                </dl>
+                                <div class="show-detail">
+                                    <a><img src="./img/layout/01d21124a65a1659d0c64f2f18eed1c41a.jpg"></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">鞋履
+                        </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="category-list">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">鞋履</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">运动鞋</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">凉鞋/凉拖</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">休闲/时装鞋</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">靴子</a>
+                                    </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">PUMA</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">adidas Originals</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Reebok</a>
+                                    </dd>
+                                </dl>
+                                <dl class="category-list">
+                                    <dd>
+                                        <a href="javascript:;">Onitsuka
+                                            Tiger</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">中国李宁</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">Timberland</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Rick Owens</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">Dr.Martens</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">PENSOLE</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">ASICS Tiger</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">VANS</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">converse</a>
+                                    </dd>
+                                </dl>
+                                <dl class="category-list">
+                                    <dd>
+                                        <a href="javascript:;">BALENCIAGA</a>
+                                    </dd>
+                                </dl>
+                                <div class="show-detail">
+                                    <a><img src="./img/layout/01d9d112de6f66e7560bda09bfe2af8307.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;l">包袋 </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="category-list">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">包 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">双肩包</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">手拎包/单肩包 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">腰包/胸包/臂包</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">旅行箱 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">钱包/卡包</a>
+                                    </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">Dickies
+                                            箱包</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Draconite</a>
+                                    </dd>
+                                </dl>
+                                <dl class="category-list">
+                                    <dd>
+                                        <a href="javascript:;">BABAMA</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">Cote&amp;Ciel</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">Herschel Supply</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">初弎</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Bromen不莱玫</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">RAWROW</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">OMTO</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">OMT</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">COMBACK</a>
+                                    </dd>
+                                </dl>
+                                <dl class="category-list">
+                                    <dd>
+                                        <a href="javascript:;">F5S</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">百夫长CENTURION</a>
+                                    </dd>
+                                </dl>
+                                <div class="show-detail">
+                                    <a><img src="./img/layout/01132e990de654591c95c6c6d0343f16fc.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">配饰 · 其他 </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="category-list">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">服配</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">帽子 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">手表 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">袜子</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">配饰 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">太阳镜/眼镜</a>
+                                    </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">首饰 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">项链/吊坠 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">手链 </a> </dd>
+                                </dl>
+                                <dl class="category-list">
+                                    <dd>
+                                        <a href="javascript:;" class="hot">戒指</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">耳钉 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">G-SHOCK</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">MLB WATCH</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">A.time 时间廊</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">oasso</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">oammi</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">天时</a>
+                                    </dd>
+                                </dl>
+                                <dl class="category-list">
+                                    <dd>
+                                        <a href="javascript:;">NBA STYLE</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">DISSOLVE</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">New Era</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">HAZE</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">MYFUN</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">PINKORANGE</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">CATSON STORE</a>
+                                    </dd>
+                                </dl>
+                                <div class="show-detail">
+                                    <a><img src="./img/layout/01f21cd6f32282019cb98b07966e745818.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">逛
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">SALE
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sub-nav-list girls">
+                    <li>
+                        <a href="javascript:;">新品到着
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">品牌一览
+                        </a>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">服饰 </a>
+                        <div class="third-nav-wrapper" style="display:block">
+                            <div class="center-content">
+                                <dl class="hide-list hide">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">上装 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">T恤 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">衬衫</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">卫衣</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">夹克</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">风衣 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">下装 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">休闲裤 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">牛仔裤</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">连衣裙</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">半身裙 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">dusty mini</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">pass</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">ROCOCO洛可可</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">芍藥居少女原创设计</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">MOUSSY</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">LED’IN乐町</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">:CHOCOOLATE</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">SIBYL OF NO.17</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Garfield by fun</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Stussy</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">初语</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">a02</a>
+                                    </dd>
+                                </dl>
+                                <!-- <div class="show-detail">
+                                    <a><img src="javascript:;"></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">鞋履 </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="hide-list hide">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">鞋履 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">休闲/运动鞋</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">凉鞋/凉拖</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">时装鞋 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">靴子 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">VANS</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">UGG</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Dr.Martens</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Rick Owens</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">BEFFON</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">X COLLECTION</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">adidas Originals</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">NBA</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Reebok</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">TEVA</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">converse</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">JOY&amp;MARIO快乐玛丽</a>
+                                    </dd>
+                                </dl>
+                                <!-- <div class="show-detail">
+                                    <a><img src="javascript:;"></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">包袋 </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="hide-list hide">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">包 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">双肩包</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">手拎包/单肩包 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">电脑包 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">钱包/卡包/手拿包 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">腰包 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">KIPLING</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">BABYGHOST</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">CATSON STORE</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">云朵工厂</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">The Simpsons</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Holymoly</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Feeder Studio</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">MYFUN</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">PREEN PRINK</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">目意思</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">dress lab</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">SOLO</a>
+                                    </dd>
+                                </dl>
+                                <!-- <div class="show-detail">
+                                    <a><img src="javascript:;"></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">配饰 · 其他 </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="hide-list hide">
+                                    <dt>
+                                        <h3 class=""><a href="">服配 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">帽子</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;/">太阳镜/眼镜 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">袜子 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">手表 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">首饰 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">耳钉</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">戒指 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">手链 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">项链 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">配饰 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">皮带/腰带 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">胸针/胸章 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">手机链/钥匙扣</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">头饰</a>
+                                    </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">焕懋手表集合店</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">PUMA</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">GEMCY</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">BBF</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">MLB WATCH</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:；">Joystone玺悦熠辉</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">PINKORANGE</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">DIRTY VELVET</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">GALLET</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">JNBY</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">FEO</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">ZERONE</a>
+                                    </dd>
+                                </dl>
+                                <!-- <div class="show-detail">
+                                    <a><img src="javascript:;"></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">逛
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">SALE
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sub-nav-list kids">
+                    <li>
+                        <a href="javascript:;">新品到着
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">品牌一览
+                        </a>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">男童
+                        </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="hide-list hide">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">上装 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">T恤</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">套装 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">衬衫</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">背心 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">裤装 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">短裤</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">休闲裤 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">连体裤</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">运动裤 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">牛仔裤 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">Buling Bubble</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">TYAKASHA</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Lightning
+                                            Bear kids</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">DARKNESS</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">FUN</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">MADNESS</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">Dickies</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">SOYO舍予</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">kizzuruumu</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">MARUKO HAHA</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">EOEO's梨小闲</a>
+                                    </dd>
+                                </dl>
+                                <!-- <div class="show-detail">
+                                    <a><img src="javascript:;"></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">女童
+                        </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="hide-list hide">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">上装 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">T恤</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">套装 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">衬衫</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">背心 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">裤装 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">短裤</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">休闲裤 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">连体裤 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">牛仔裤 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">运动裤 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">裙装</a>
+                                        </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">连衣裙</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">半身裙 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">Garfield by fun</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">yiigoo 壹果</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">JUZI
+                                            STORE</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">日着rizhuo</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">MINI
+                                            CHOC</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">strawberry bread</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">ENHENN</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">boxboxbox</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Harny&amp;Son 哈尼尚</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">CHUMS Kids</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">babyONE</a>
+                                    </dd>
+                                </dl>
+                                <!-- <div class="show-detail">
+                                    <a><img src="javascript:;"></a>
+                                    <a class="title">热门小物优选</a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">鞋包配饰
+                        </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="hide-list hide">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">鞋包配饰</a>
+                                        </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">运动鞋 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">凉鞋/拖鞋</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">帽子</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">袜子 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">双肩包 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">玩具娱乐 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">Timberland</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">Dr.Martens KIDS</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Onitsuka
+                                            Tiger kids</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">回力</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">DC KIDS</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">KIDS.ING</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">TEVA</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">飞跃</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">PLUSH</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">BOO STORE</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">STANCE</a>
+                                    </dd>
+                                </dl>
+                                <!-- <div class="show-detail">
+                                    <a><img src="javascript:;"></a>
+                                    <a class="title">热门小物优选</a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">逛
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">SALE
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sub-nav-list lifestyle">
+                    <li>
+                        <a href="javascript:;">新品到着
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">品牌一览
+                        </a>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">数码3C </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="hide-list hide">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">数码3C </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">影音娱乐</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">手机配件</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">电脑配件 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">BSN</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">beats</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">AliyaStore</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">奇连数码</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">猫王MAO KING</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">TYAKASHA</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">Skullcandy</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">JBL</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">BOSE</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">FANTASTIC
+                                            PLANET怪诞星球</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Sennheiser 森海塞尔</a>
+                                    </dd>
+                                </dl>
+                                <!-- <div class="show-detail">
+                                    <a><img src="javascript:;"></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">居家 </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="hide-list hide">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">居家</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">生活日用</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">水具酒具 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">家用电器 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">家纺 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">家装软饰</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">茶具/咖啡具 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;">general store</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">#Boring Things</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">NEWOK</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">蕉下 Banana under</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">BOO STORE</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">PRBLMS</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">奇居良品</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Asobu 爱斯堡</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">ROARINGWILD</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">Miss
+                                            Rain</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">OMENTAR</a>
+                                    </dd>
+                                </dl>
+                                <!-- <div class="show-detail">
+                                    <a><img src="javascript:;"></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">玩具礼品 </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="hide-list hide">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">玩具礼品 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">玩具模型</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">礼品</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">文具杂志 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">益智/DIY </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">HOT
+                                            TOYS</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">zippo</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">BAN DAI</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">TAKARA TOMY</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">意外设计</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">影舟子Filmboat专营店</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">乐高</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">ZCWO</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">tokidoki</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">乐立方</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">ipluso意索</a>
+                                    </dd>
+                                </dl>
+                                <!-- <div class="show-detail">
+                                    <a><img src="javascript:;"></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="contain-third">
+                        <a href="javascript:;">美妆 </a>
+                        <div class="third-nav-wrapper">
+                            <div class="center-content">
+                                <dl class="hide-list hide">
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">美妆 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">面部护肤</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">香水彩妆</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">洗发护发 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">身体护理 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">口腔护理 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">配饰 </a> </h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">帽子</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">袜子 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">首饰</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">手表 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">太阳镜/眼镜 </a> </dd>
+                                    <dd>
+                                        <a href="javascript:;">手套 </a> </dd>
+                                    <dt>
+                                        <h3 class=""><a href="javascript:;">热门品牌</a></h3>
+                                    </dt>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">BOSSDUN.MEN</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">Chetti Rouge轩谛</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">EISENBERG伊诗贝格</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">ApiYoo</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">ComerMullen</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">自然之名</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;" class="hot">Dr.Jart+蒂佳婷</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">LittleTouch哩头</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">@become再变</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">素士</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="javascript:;">曼秀雷敦</a>
+                                    </dd>
+                                </dl>
+                                <!-- <div class="show-detail">
+                                    <a><img src="javascript:;"></a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:;">逛
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">SALE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <div id="hide-template">
     </div>
@@ -24,7 +1486,7 @@
         <i class="iconfont icon-del"></i>
     </div>
     <div class="sale-page yoho-page center-content">
-        <div id="slider" class="slide-container ">
+        <div id="slider" class="slide-container " style="display: block">
             <!-- banner轮播图上部分 -->
             <div class="slide-wrapper">
                 <ul>
@@ -54,67 +1516,65 @@
                     </li>
                 </ul>
             </div>
-           
+
         </div>
-         <!-- banner轮播图下部分 -->
-         <div class="thumb-pagination">
-                <ul class="clearfix">
-                    <li class="" style="width: 12.5%">
-                        <a href="javascript:;" target="_blank" title="58折封"></a>
-                        <img src="./img/layout/01b0cf89d084f9761cff3cf6aaff905c4b.jpg" alt="">
-                    </li>
-                    <li class="" style="width: 12.5%">
-                        <a href="javascript:;" target="_blank" title="满减"></a>
-                        <img src="./img/layout/01069d93bc7dbaf173ec6d8a64ed70076e.jpg" alt="">
-                    </li>
-                    <li class="" style="width: 12.5%">
-                        <a href="javascript:;" target="_blank" title="下单立享88折"></a>
-                        <img src="./img/layout/018017fb7def0e44d2824ea7956ac7dae4.jpg" alt="">
-                    </li>
-                    <li class="" style="width: 12.5%">
-                        <a href="javascript:;" target="_blank" title="纯新"></a>
-                        <img src="./img/layout/0163ef8a853b5965491cf284bcff35a577.jpg" alt="">
-                    </li>
-                    <li class="" style="width: 12.5%">
-                        <a href="javascript:;" target="_blank" title="品类-上装"></a>
-                        <img src="./img/layout/01ef41965de5bfe36fbc68d5e3a916a601.jpg" alt="">
-                    </li>
-                    <li class="focus" style="width: 12.5%">
-                        <a href="javascript:; target="_blank" title="品类-短裤&amp;长裤"></a>
-                        <img src="./img/layout/01cb5b3bcd74a700642f3b30c7649045cc.jpg" alt="">
-                    </li>
-                    <li class="" style="width: 12.5%">
-                        <a href="javascript:;" target="_blank" title="品类-运动鞋"></a>
-                        <img src="./img/layout/01bb04782ded21882f4ce5839ab3cbfba1.jpg" alt="">
-                    </li>
-                    <li class="" style="width: 12.5%">
-                        <a href="javascript:;" target="_blank" title="包袋&amp;配饰"></a>
-                        <img src="./img/layout/0117f125805d3cfa121be9920687e21db4.jpg" alt="">
-                    </li>
-                </ul>
-            </div>
-        <div class="slide-container-placeholder "></div>
+        <!-- banner轮播图下部分 -->
+        <div class="thumb-pagination" style="display: block">
+            <ul class="clearfix">
+                <li class="" style="width: 12.5%">
+                    <a href="javascript:;" target="_blank" title="58折封"></a>
+                    <img src="./img/layout/01b0cf89d084f9761cff3cf6aaff905c4b.jpg" alt="">
+                </li>
+                <li class="" style="width: 12.5%">
+                    <a href="javascript:;" target="_blank" title="满减"></a>
+                    <img src="./img/layout/01069d93bc7dbaf173ec6d8a64ed70076e.jpg" alt="">
+                </li>
+                <li class="" style="width: 12.5%">
+                    <a href="javascript:;" target="_blank" title="下单立享88折"></a>
+                    <img src="./img/layout/018017fb7def0e44d2824ea7956ac7dae4.jpg" alt="">
+                </li>
+                <li class="" style="width: 12.5%">
+                    <a href="javascript:;" target="_blank" title="纯新"></a>
+                    <img src="./img/layout/0163ef8a853b5965491cf284bcff35a577.jpg" alt="">
+                </li>
+                <li class="" style="width: 12.5%">
+                    <a href="javascript:;" target="_blank" title="品类-上装"></a>
+                    <img src="./img/layout/01ef41965de5bfe36fbc68d5e3a916a601.jpg" alt="">
+                </li>
+                <li class="focus" style="width: 12.5%">
+                    <a href="javascript:; target=" _blank" title="品类-短裤&amp;长裤"></a>
+                    <img src="./img/layout/01cb5b3bcd74a700642f3b30c7649045cc.jpg" alt="">
+                </li>
+                <li class="" style="width: 12.5%">
+                    <a href="javascript:;" target="_blank" title="品类-运动鞋"></a>
+                    <img src="./img/layout/01bb04782ded21882f4ce5839ab3cbfba1.jpg" alt="">
+                </li>
+                <li class="" style="width: 12.5%">
+                    <a href="javascript:;" target="_blank" title="包袋&amp;配饰"></a>
+                    <img src="./img/layout/0117f125805d3cfa121be9920687e21db4.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="slide-container-placeholder" style="display: block"></div>
 
-        <div class="activity-entry clearfix">
+        <div class="activity-entry clearfix" style="display: block">
             <a href="javascript:;" target="_blank">
-                <img class="entry-item pull-left first "
-                    src="./img/layout/01cc281a942c0afaabca5d01fa84759d2b.jpg"
+                <img class="entry-item pull-left first " src="./img/layout/01cc281a942c0afaabca5d01fa84759d2b.jpg"
                     style="width: 376.667px;">
 
             </a>
             <a href="javascript:;" target="_blank">
-                <img class="entry-item pull-left  "
-                    src="./img/layout/015990efb3b26f62931ccf6e3092a519e3.jpg"
+                <img class="entry-item pull-left  " src="./img/layout/015990efb3b26f62931ccf6e3092a519e3.jpg"
                     style="width: 376.667px;">
 
             </a>
             <a href="javascript:;" target="_blank">
-                <img class="entry-item pull-left  last"
-                    src="./img/layout/01b8f4f5c9c50b45df157956cf88106b1a.jpg"
+                <img class="entry-item pull-left  last" src="./img/layout/01b8f4f5c9c50b45df157956cf88106b1a.jpg"
                     style="width: 376.667px;">
 
             </a>
         </div>
+        <!-- 数据渲染部分 -->
         <div class="brand-sale">
             <div class="floor-title">
                 折扣专场 SALE
@@ -122,13 +1582,11 @@
             <div class="sale-group-big clearfix">
                 <a class="item pull-left" href="javascript:;" target="_blank" title="百搭潮TEE 3折起">
                     <div class="pic">
-                        <img src="./img/layout/0296c4b058503e61c85c33661893ae053b.jpg"
-                            alt="百搭潮TEE 3折起">
+                        <img src="./img/layout/0296c4b058503e61c85c33661893ae053b.jpg" alt="百搭潮TEE 3折起">
                         <div class="time"><span class="time-span"><span class="iconfont"></span>剩21小时</span></div>
                     </div>
                     <div class="detail">
-                        <img class="brand pull-left"
-                            src="./img/layout/0162b5951361db8dbda82984fe41b56031.png">
+                        <img class="brand pull-left" src="./img/layout/0162b5951361db8dbda82984fe41b56031.png">
                         <div class="text">
                             <div class="discount">
                                 <span class="num">3折起</span>
@@ -143,13 +1601,11 @@
                 </a>
                 <a class="item pull-left" href="javascript:;" target="_blank" title="型格衬衫 3折起">
                     <div class="pic">
-                        <img src="./img/layout/016283658f26a5600c661e46f0e613f57b.jpg"
-                            alt="型格衬衫 3折起">
+                        <img src="./img/layout/016283658f26a5600c661e46f0e613f57b.jpg" alt="型格衬衫 3折起">
                         <div class="time"><span class="time-span"><span class="iconfont"></span>剩21小时</span></div>
                     </div>
                     <div class="detail">
-                        <img class="brand pull-left"
-                            src="./img/layout/0211c4f0ad83e7dfd34d5fb9380a76a040.png">
+                        <img class="brand pull-left" src="./img/layout/0211c4f0ad83e7dfd34d5fb9380a76a040.png">
                         <div class="text">
                             <div class="discount">
                                 <span class="num">3折起</span>
@@ -164,13 +1620,11 @@
                 </a>
                 <a class="item pull-left" href="javascript:;" target="_blank" title="必备短裤 4折起">
                     <div class="pic">
-                        <img src="./img/layout/02cad19da303557b6aab2fc795185671ed.jpg"
-                            alt="必备短裤 4折起">
+                        <img src="./img/layout/02cad19da303557b6aab2fc795185671ed.jpg" alt="必备短裤 4折起">
                         <div class="time"><span class="time-span"><span class="iconfont"></span>剩21小时</span></div>
                     </div>
                     <div class="detail">
-                        <img class="brand pull-left"
-                            src="./img/layout/01e97d58b9b9bfa5c6b81bc13a65a7e57c.png">
+                        <img class="brand pull-left" src="./img/layout/01e97d58b9b9bfa5c6b81bc13a65a7e57c.png">
                         <div class="text">
                             <div class="discount">
                                 <span class="num">4折起</span>
@@ -216,7 +1670,7 @@
                         </div>
                         <div class="good-detail-img">
                             <a class="good-thumb" href="javascript:;" title="【】COKEIN 卡通印花撞色贴布宽松速干五分裤" target="_blank">
-                                <img class="lazy" src="javascript:;" alt="【】COKEIN 卡通印花撞色贴布宽松速干五分裤">
+                                <img class="lazy" src="" alt="【】COKEIN 卡通印花撞色贴布宽松速干五分裤">
                             </a>
                         </div>
                         <div class="good-detail-text ">
@@ -265,7 +1719,7 @@
                         </div>
                         <div class="good-detail-img">
                             <a class="good-thumb" href="javascript:;" title="【】gxg.jeans 简约纯色休闲裤" target="_blank">
-                                <img class="lazy" src="javascript:;" alt="【】gxg.jeans 简约纯色休闲裤" src="javascript:;">
+                                <img class="lazy" src="" alt="【】gxg.jeans 简约纯色休闲裤" src="javascript:;">
                             </a>
 
                         </div>
@@ -314,7 +1768,7 @@
                         </div>
                         <div class="good-detail-img">
                             <a class="good-thumb" href="javascript:;" title="【】COKEIN 卡通印花撞色贴布宽松速干五分裤" target="_blank">
-                                <img class="lazy" src="javascript:;" alt="【】COKEIN 卡通印花撞色贴布宽松速干五分裤" src="javascript:;">
+                                <img class="lazy" src="" alt="【】COKEIN 卡通印花撞色贴布宽松速干五分裤" src="javascript:;">
                             </a>
                         </div>
                         <div class="good-detail-text ">
@@ -341,7 +1795,7 @@
     <div class="yoho-footer">
     </div>
     <!-- 进入后弹窗 -->
-    <div id="cover" style="display:none">
+    <div id="cover" style="display:block">
         <div class="con"></div>
         <div class="guide-box" spm-name="homepage_guide" style="top: 128.5px; width: 800px;">
             <a class="close" href="javascript:;">x</a>
@@ -438,10 +1892,12 @@
         </div>
     </div>
     <script src="./script/thirdplugins/jquery.js"></script>
+    <script src="./script/thirdplugins/jquery.lazyload.js"></script>
     <script>
-        $('#yoho-header').load("hred.html")
         $('.yoho-footer').load("footer.html")
     </script>
+    <script src="./script/js/index.js"></script>
+
 </body>
 
 </html>

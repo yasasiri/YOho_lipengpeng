@@ -55,8 +55,8 @@ body {
 
 @font-face {
     font-family: iconfont;
-    src: url(http://10.31.158.25/1905/YOho_lipengpeng/src/fonts/iconfont.eot);
-    src: url(http://10.31.158.25/1905/YOho_lipengpeng/src/fonts/iconfont.eot) format("embedded-opentype"),url(http://10.31.158.25/1905/YOho_lipengpeng/src/fonts/iconfont.woff) format("woff"),url(http://10.31.158.25/1905/YOho_lipengpeng/src/fonts/iconfont.ttf) format("truetype"),url(http://10.31.158.25/1905/YOho_lipengpeng/src/fonts/iconfont.svg?16bc03ad47c#iconfont) format("svg")
+    src: url(../fonts/iconfont.eot);
+    src: url(../fonts/iconfont.eot) format("embedded-opentype"),url(../fonts/iconfont.woff) format("woff"),url(../fonts/iconfont.ttf) format("truetype"),url(../fonts/iconfont.svg?16bc03ad47c#iconfont) format("svg")
 }
 
 .iconfont {
@@ -657,7 +657,7 @@ img {
 }
 
 .yoho-header .tool-wrapper .icon-hamburger {
-    background-image: url(img/sprite.scss.png?t=1562298234767);
+    background-image: url(../img/layout/sprite.scss.png);
     background-position: -19px -86px;
     background-size: 123px 122px;
     width: 16px;
@@ -673,7 +673,7 @@ img {
 }
 
 .yoho-header .tool-wrapper .icon-bottomarrow,.yoho-header .tool-wrapper .icon-papers {
-    background-image: url(img/sprite.scss.png?t=1562298234768);
+    background-image: url(../img/layout/sprite.scss.png);
     background-size: 123px 122px;
     margin-top: -2px
 }
@@ -691,7 +691,7 @@ img {
 }
 
 .yoho-header .tool-wrapper .icon-heart,.yoho-header .tool-wrapper .icon-mail {
-    background-image: url(img/sprite.scss.png?t=1562298234768);
+    background-image: url(../img/layout/sprite.scss.png);
     background-size: 123px 122px;
     margin-top: -2px
 }
@@ -703,7 +703,7 @@ img {
 }
 
 .yoho-header .tool-wrapper .icon-phone {
-    background-image: url(img/sprite.scss.png?t=1562298234768);
+    background-image: url(../img/layout/sprite.scss.png);
     background-position: 0 -108px;
     background-size: 123px 122px;
     width: 10px;
@@ -1323,7 +1323,7 @@ img {
 
 .yoho-header .swindle-info .icon-note {
     display: inline-block;
-    background-image: url(img/sprite.scss.png?t=1562298234768);
+    background-image: url(../img/layout/sprite.scss.png);
     background-position: -107px -22px;
     background-size: 123px 122px;
     width: 15px;
@@ -2190,7 +2190,7 @@ img {
 .yoho-footer .qrcode-download-right .qrcode-img {
     width: 28px;
     height: 28px;
-    background-image: url(img/sprite.scss.png?t=1562298234768);
+    background-image: url(../img/layout/sprite.scss.png);
     background-position: -71px 0;
     background-size: 123px 122px;
     display: inline-block;
@@ -2650,7 +2650,7 @@ img {
 }
 
 .product-list-page .base-shop-banner .qrcode-shop .qrcode-icon {
-    background-image: url(img/sprite.scss.png?t=1562298234769);
+    background-image: url(../img/layout/sprite.scss.png);
     background-position: -24px -62px;
     background-size: 123px 122px;
     width: 16px;
@@ -2676,7 +2676,7 @@ img {
     content: "";
     width: 16px;
     height: 8px;
-    background-image: url(img/sprite.scss.png?t=1562298234769);
+    background-image: url(../img/layout/sprite.scss.png);
     background-position: -40px -86px;
     background-size: 123px 122px;
     display: block;
@@ -2717,7 +2717,7 @@ img {
 }
 
 .product-list-page .shop-decoration-banner .qrcode-icon {
-    background-image: url(img/sprite.scss.png?t=1562298234769);
+    background-image: url(../img/layout/sprite.scss.png);
     background-position: -35px 0;
     background-size: 123px 122px;
     width: 28px;
@@ -2740,7 +2740,7 @@ img {
     content: "";
     width: 16px;
     height: 8px;
-    background-image: url(img/sprite.scss.png?t=1562298234769);
+    background-image: url(../img/layout/sprite.scss.png);
     background-position: -40px -86px;
     background-size: 123px 122px;
     display: block;
@@ -2982,7 +2982,7 @@ img {
     width: 16px;
     height: 14px;
     margin-right: 2px;
-    background-image: url(img/sprite.scss.png?t=1562298234769);
+    background-image: url(../img/layout/sprite.scss.png);
     background-position: -107px 0;
     background-size: 123px 122px;
     display: inline-block;
@@ -3494,7 +3494,7 @@ img {
 }
 
 .yoho-dialog.alert-dialog .content div span,.yoho-dialog.confirm-dialog .content div span {
-    background-image: url(img/sprite.scss.png?t=1562298234769);
+    background-image: url(../img/layout/sprite.scss.png);
     background-position: 0 0;
     background-size: 123px 122px;
     float: left;
@@ -3598,7 +3598,7 @@ img {
 }
 
 .share-wrapper .tweibo,.share-wrapper .weibo {
-    background-image: url(img/sprite.scss.png?t=1562298234769);
+    background-image: url(../img/layout/sprite.scss.png);
     background-size: 123px 122px
 }
 
@@ -3607,7 +3607,7 @@ img {
 }
 
 .share-wrapper .renren {
-    background-image: url(img/sprite.scss.png?t=1562298234769);
+    background-image: url(../img/layout/sprite.scss.png);
     background-position: -48px -38px;
     background-size: 123px 122px
 }
@@ -3617,7 +3617,7 @@ img {
 }
 
 .share-wrapper .qq,.share-wrapper .qzone {
-    background-image: url(img/sprite.scss.png?t=1562298234770);
+    background-image: url(../img/layout/sprite.scss.png);
     background-size: 123px 122px
 }
 
@@ -3630,7 +3630,7 @@ img {
 }
 
 .share-wrapper .douban,.share-wrapper .weixin {
-    background-image: url(img/sprite.scss.png?t=1562298234770);
+    background-image: url(../img/layout/sprite.scss.png);
     background-size: 123px 122px
 }
 
