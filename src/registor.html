@@ -45,55 +45,26 @@
                         </select>
                     </li>
                     <li class="clearfix" data-index="0">
-                        <span id="country-code" class="country-code">+86</span>
-                        <input value="" id="phone-num" class="input va phone-num" type="text" name="phoneNum"
-                            placeholder="请输入手机号码" autocomplete="off">
+                        <span id="country-code" class="country-code">用户名</span>
+                        <input value="" id="name" class="input va name" type="text" name="name"
+                            placeholder="请输入昵称" autocomplete="off">
+                        <span class="name-tip"></span>
                     </li>
+                    <li class="clearfix" data-index="1">
+                            <span id="country-code" class="country-code">邮箱</span>
+                            <input value="" id="email" class="input va email" type="text" name="email"
+                                placeholder="请输入邮箱" autocomplete="off">
+                        <span id="msg-tip" class="email-tip"></span>
 
-                    <li id="captcha-img" class="w330 clearfix " data-index="1">
-                        <div class="img-check">
-                            <div class="img-check-header">
-                                <span>请将下列图片点击翻转至正确方向</span>
-                                <a class="img-check-refresh">换一批</a>
-                            </div>
-                            <div class="img-check-main">
-                                <ul class="img-check-pics">
-                                    <li class="img-check-pic" data-val="0">
-                                        <img src="./img/layout/images.png" alt=""
-                                            style="margin-left: 0px; margin-top: 0px;">
-                                    </li>
-                                    <li class="img-check-pic" data-val="0">
-                                        <img src="./img/layout/images.png" alt=""
-                                            style="margin-left: -60px; margin-top: 0px;">
-                                    </li>
-                                    <li class="img-check-pic" data-val="0">
-                                        <img src="./img/layout/images.png" alt=""
-                                            style="margin-left: -120px; margin-top: 0px;">
-                                    </li>
-                                    <li class="img-check-pic last-child" data-val="0">
-                                        <img src="./img/layout/images.png" alt=""
-                                            style="margin-left: -180px; margin-top: 0px;">
-                                    </li>
-                                </ul>
-
-                                <span class="img-check-tip hide">
-                                    <i class="iconfont"></i>
-                                    <em>请将图形验证码翻转至正确方向</em>
-                                </span>
-                            </div>
-
-                        </div>
                     </li>
-                    <li class="clearfix" data-index="2">
-                        <input id="msg-captcha" class="input va msg-captcha" type="text" name="msgCaptcha"
-                            placeholder="短信验证码" autocomplete="off" maxlength="4">
-                        <input id="send-captcha" class="btn send-captcha" type="button" value="获取短信验证码">
-                        <span id="msg-tip" class="hide msg-tip">短信验证码已发送至您的手机，请查收</span>
-                    </li>
-
-                    <input type="text" name="name" style="position: fixed;visibility:hidden;">
-
                     <li class="clearfix" data-index="3">
+                            <span id="country-code" class="country-code">手机号</span>
+                            <input value="" id="phone" class="input va phone" type="text" name="phone"
+                                placeholder="请输入手机号" autocomplete="off">
+                        <span id="msg-tip" class="phone-tip"></span>
+
+                    </li>
+                    <li class="clearfix" data-index="4">
                         <input id="pwd" class="input va pwd" name="pwd" placeholder="设置密码" autocomplete="off"
                             maxlength="20" type="password">
                         <div class="pwd-intensity-container">
@@ -107,11 +78,6 @@
                         </div>
                     </li>
 
-                    <li class="clearfix" data-index="3">
-                        <input id="invite-code" class="input invite-code" name="inviteCode" placeholder="潮流口令(非必填)"
-                            autocomplete="off" maxlength="20" type="text">
-                    </li>
-
                     <li class="items-container clearfix">
                         <span>
                             注册即表示您已阅读并同意<br>
@@ -123,11 +89,10 @@
                     </li>
                     <li class="clearfix reg-btn-area">
                         <input name="refer" id="refer" type="hidden" value="">
-                        <input id="register-btn" class="btn register-btn disable" type="submit" value="立即注册"
-                            disabled="">
+                        <input id="register-btn" class="btn register-btn disable" type="submit" value="立即注册">
                         <div class="qrcode-hover-reg">
                             <a class="qrcode-reg" href="javascript:;" target="_blank">
-                                <i class="qrcode-icon">这是个二维码</i>
+                                <i class="qrcode-icon"></i>
                             </a>
                             <div class="download-app-box">
                                 <div class="qr-img"></div>
@@ -161,10 +126,13 @@
     </div>
     </div>
     <script src="./script/thirdplugins/jquery.js"></script>
+
     <script>
         $('.simple-header').load("./log/loghreader.html")
         $('.yoho-footer').load("footer.html")
     </script>
+    <script src="./script/js/reg.js"></script>
+
 </body>
 
 </html>

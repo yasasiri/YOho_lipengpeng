@@ -1516,7 +1516,17 @@
                     </li>
                 </ul>
             </div>
-
+            <!-- 左右点击轮播按键 -->
+            <div class="slide-switch hide">
+                <a class="prev" href="javascript:;">
+                    <span class="iconfont">
+                    </span>
+                </a>
+                <a class="next" href="javascript:;">
+                    <span class="iconfont">
+                    </span>
+                </a>
+            </div>
         </div>
         <!-- banner轮播图下部分 -->
         <div class="thumb-pagination" style="display: block">
@@ -1555,6 +1565,7 @@
                 </li>
             </ul>
         </div>
+
         <div class="slide-container-placeholder" style="display: block"></div>
 
         <div class="activity-entry clearfix" style="display: block">
@@ -1893,8 +1904,11 @@
     </div>
     <script src="./script/thirdplugins/jquery.js"></script>
     <script src="./script/thirdplugins/jquery.lazyload.js"></script>
+    <script src="./script/thirdplugins/jquery.cookie.js"></script>
     <script>
-        $('.yoho-footer').load("footer.html")
+        $('.yoho-footer').load("footer.html");
+        
+
     </script>
     <script src="./script/js/index.js"></script>
 
