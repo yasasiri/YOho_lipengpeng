@@ -10,9 +10,8 @@ if($conn->connect_error){
 }
 $conn->query("SET NAMES UTF8");
 $arr=[];
-
-
-    $sele="select * from yohoyi";
+$id=$_GET['id'];
+$sele="select * from yohoyi where id='$id'";
 $rel=$conn->query($sele);
 for($i=0;$i<$rel->num_rows;$i++){
     $arr[$i]=$rel->fetch_assoc();

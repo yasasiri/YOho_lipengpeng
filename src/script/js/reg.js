@@ -41,6 +41,7 @@
     let namefg = false
     let emailfg = false
     let passfg = false
+    let passfg2 = false
     let phonefg = false
     name.on('keyup', function () {
         if (nam.test(name.val()) === false) {
@@ -88,6 +89,13 @@
         $('.pwd-tips').addClass('hide')
         // out
     });
+    pwd.on('blur',function(){
+        if(pw.test(pwd.val())){
+            passfg = true
+        }else{
+            passfg = false
+        }
+    })
     pwd.on('keyup', function () {
         let det = 0
 
@@ -105,40 +113,42 @@
             case 1:
                 $('.pwd-intensity-container').addClass('red')
                 $('.low').addClass('color')
-                passfg = false
+                passfg2=false
                 break
             case 2:
                 $('.pwd-intensity-container').addClass('yellow')
                 $('.low').addClass('color')
                 $('.mid').addClass('color')
-                passfg = true
+                passfg2=true
                 break
             case 3:
                 $('.pwd-intensity-container').addClass('green')
                 $('.low').addClass('color')
                 $('.mid').addClass('color')
                 $('.high').addClass('color')
-                passfg = true
+                passfg2=true
                 break
         }
     })
     $('#register-btn').on('mouseover',function(){
-        if (namefg && emailfg && phonefg && passfg) {
+        if (namefg && emailfg && phonefg && passfg&&passfg2) {
             $('#register-btn').removeClass('disable')
-            
+            $('#register-btn').on('click',function(){
+                $.ajax({
+                    type: "POST",
+                    url: "http://10.31.158.25/1905/YOho_lipengpeng/php/reg.php",
+                    data: {
+                        name:name.val(),
+                        email:email.val(),
+                        pwd:pwd.val()
+                    },
+                    }).done(function(d){
+                        $('body').html(d)
+                    })
+            })
+        }else{
+            $('#register-btn').addClass('disable')
         }
     })
-    $('#register-btn').on('click',function(){
-        $.ajax({
-            type: "POST",
-            url: "http://10.31.158.25/1905/YOho_lipengpeng/php/reg.php",
-            data: {
-                name:name.val(),
-                email:email.val(),
-                pwd:pwd.val()
-            },
-            }).done(function(d){
-                $('body').html(d)
-            })
-    })
+   
 }(jQuery)
