@@ -227,10 +227,14 @@
 			$.cookie('num', arrnum.toString())
 
 		}
-
-
+		$('.product-detail-page .main .balance').css({
+			display:'block'
+		})
+	})
+	$('#keep-shopping').on('click',function(){
+		$('.product-detail-page .main .balance').css({
+			display:'none'
+	})
 	})
 }(jQuery);
-! function ($) {}(jQuery);
-! function ($) {}(jQuery);
-! function ($) {}(jQuery)
+

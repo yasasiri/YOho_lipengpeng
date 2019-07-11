@@ -25,7 +25,7 @@
             <ul class="header-tool clearfix">
                 用户名显示部分 shikio
                 <li><span>Hi~</span><a href="javascript:;">SHIKIO</a>&nbsp;<a
-                        href="//www.yohobuy.com/logout.html">[退出]</a></li>
+                        href="javascript:;">[退出]</a></li>
                 <!-- 推出登录状态 -->
                 <li class="tool-options">
                     <span><a href="javascript:;">MY有货</a></span>
@@ -71,8 +71,8 @@
                 <div class="pay-wapper" data-role="order-cart">
                     <div class="cart-title">
                         <p class="left" style="width:6%;">
-                            <i
-                                class="cart-item-check-title cart-item-check iconfont cart-item-checked"></i>&nbsp;&nbsp;全选
+                            <!-- 选中class  cart-item-checked -->
+                            <i class="cart-item-check-title cart-item-check iconfont"></i>&nbsp;&nbsp;全选
                         </p>
                         <p style="width:35%">商品信息</p>
                         <p style="width:14%">单价</p>
@@ -85,7 +85,8 @@
                     <div data-role="ordinary">
                         <!-- 普通商品   -->
                         <div class="pre-sell ord-sell-title">
-                            <i class="cart-item-check iconfont  cart-item-checked" data-role="cart-item-check"></i>
+                            <!-- 全选与不全选 加class区别  cart-item-checked -->
+                            <i class="cart-item-check iconfont" data-role="cart-item-check"></i>
                             <code>普通商品</code> 再买¥88.68即可免运费
 
                             <span class="btn-clear blue order-pay-link piece-goods-btn">去凑单&nbsp;<i
@@ -109,51 +110,8 @@
 
                             <div class="cart-table">
                                 <ul class="table table-group">
-                                    <li class="pre-sell-box tr active" data-role="pitem" data-pid="1241761"
-                                        data-id="4165066" data-skn="52133560" data-productnum="1" data-storagenum="2"
-                                        data-minbuynum="1" data-goodstype="ordinary" data-promotionid="0"
-                                        data-color="粉底红条" data-size="XL" data-pool-type="1">
-                                        <div class="pay-pro td " style="width: 368px;">
-                                            <i class="cart-item-check iconfont cart-item-checked "
-                                                data-role="cart-item-check" data-goodstype="ordinary" checked=""></i>
-                                            <!-- 回到详情页部分 -->
-                                            <a class="pay-pro-icon" href="./details/52133560.html" target="_blank">
-                                                <img
-                                                    src="//img12.static.yhbimg.com/goodsimg/2019/06/19/14/020d20ec97d5d7be4407e92cc8ddd68f26.jpg?imageMogr2/thumbnail/64x88/background/d2hpdGU=/position/center/quality/90">
-
-                                            </a>
-                                            <p class="pay-pro-info">
-                                                <!-- 回到详情部分 -->
-                                                <a href="./details/52133560.html" target="_blank"
-                                                    data-role="item-title">
-                                                    BEASTER 条纹短袖衬衫
-                                                </a>
-                                            </p>
-                                        </div>
-                                        <div class="product-price td " style="width:148px;">
-                                            <p class="p-product-price">¥239.00</p>
-                                        </div>
-                                        <div style="width:128px;" class="adjust-cart-num td">
-                                            <div class="cart-num-cont">
-                                                <span class="minus cart-num-btn disabled">
-                                                    <!-- 产品减少部分 -->
-                                                    <i class="jianjian"> - </i>
-                                                </span>
-                                                <input type="text" value="1" readonly="readonly">
-                                                <span class="plus cart-num-btn ">
-                                                    <!-- 产品加购部分 -->
-                                                    <i class="jiajia"> + </i>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div style="width:160px;" class="sub-total red td">
-                                            ¥239.00
-                                        </div>
-                                        <div style="width:100px;" class="cart-operation td">
-                                            <span class="cart-del-btn" data-role="cart-del-btn">删除</span>
-                                            <span class="cart-col-btn" data-role="cart-mov2fav-btn">移入收藏</span>
-                                        </div>
-                                    </li>
+                                    <!-- 渲染购物车里的产品 -->
+                                    <!--  cart-item-checked   选择class名 -->
                                 </ul>
                             </div>
                         </div>
@@ -164,22 +122,24 @@
                         <div class="cart-fixed-wrap">
                             <div class="center-content clearfix">
                                 <div class="fixed-option">
-                                    <i class="cart-item-check iconfont cart-item-checked" id="cbSelAllGoods"></i>
+                                    <i class="cart-item-check iconfont" id="cbSelAllGoods"></i>
                                     <span class="check-all-sum">全选</span>
                                     <a class="delAll delete-all-sel" href="javascript:void(0);">删除选中商品</a>
                                     <a class="removeAll remove-all-2fav" href="javascript:void(0);">移入收藏夹</a>
                                     <a class="emptyDisabled clean-all-disable" href="javascript:void(0);">清空失效商品</a>
                                 </div>
-                                <p class="select-num">已选商品<strong class="ins">1</strong>件</p>
+                                <!-- 选中几个产品 -->
+                                <p class="select-num">已选商品<strong class="ins">0</strong>件</p>
                                 <div class="price-sum">
-                                    <p class="sum">应付金额（不含邮费）：<strong><kbd>¥</kbd> 210.32</strong></p>
+                                    <!-- 统计金额 -->
+                                    <p class="sum">应付金额（不含邮费）：<strong><kbd>¥</kbd> 0.00</strong></p>
                                 </div>
                                 <a href="javascript:void(0);" id="Y_SubmitBtn" class="btn-account right"
                                     data-ensureurl="//www.yohobuy.com/cart/ensure">去结算</a>
                             </div>
                         </div>
                     </div>
-
+                    <!-- 付款弹窗 -->
                     <div class="modal-overflow" style="display: none;" data-role="mdialog" id="Y_CartSelectDialog">
                         <div class="body-modal-black"></div>
                         <div class="mmodal-dialog cart-presell-dialog" style="top:50px;margin-left: -267px;">
@@ -227,9 +187,12 @@
         </div>
     </div>
     <script src="./script/thirdplugins/jquery.js"></script>
+    <script src="./script/thirdplugins/jquery.cookie.js"></script>
+    <script src="./script/thirdplugins/jquery.lazyload.js"></script>
     <script>
         $('.yoho-footer').load("footer.html")
     </script>
+    <script src="./script/js/cart.js"></script>
 </body>
 
 </html>

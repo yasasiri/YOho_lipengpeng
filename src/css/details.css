@@ -2355,7 +2355,11 @@
 }
 
 .product-detail-page .main .balance {
-    display: none
+    display: none;
+    width: 400px;
+    height: 100px;
+    background: #fff;
+    border: 1px  solid #000;
 }
 
 .product-detail-page .main .balance .success-tip {
