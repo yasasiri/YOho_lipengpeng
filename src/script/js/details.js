@@ -71,10 +71,8 @@
         [ <a id="out-url" href="javascript:;" class="loginout">退出</a> ]`)
 	}
 	$('.loginout').on('click', function () {
-		$.cookie('username', '', {
-			expires: -1
-		});
-		location.reload()
+		if(confirm('是否退出账号')){$.cookie('username', '', { expires: -1 });
+			location.reload()}
 	})
 }(jQuery);
 ! function ($) {
@@ -213,7 +211,10 @@
 		let $id = location.search.split('=')[1]
 		let $num = parseInt($('#num').html())
 		if ($.cookie('id') && $.cookie('num')) {
-			arrsid = $.cookie('id').split(','); //将获取的cookie转换成数组
+			arrsid = $.cookie('id').split(','); 
+			
+			//将获取的cookie转换成数组
+			
 			arrnum = $.cookie('num').split(',');
 		}
 		if (arrsid.indexOf($id) == -1) {

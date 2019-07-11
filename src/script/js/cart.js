@@ -1,5 +1,20 @@
 ;
 ! function ($) {
+    //用户名
+    $('.name').html($.cookie('username'))
+    console.log($.cookie('username'))
+    //判断账号是否登录
+    if(!($.cookie('username'))){
+        alert('请登录账号')
+        location.href='inde.html'
+    }
+    //退出账号
+    $('.outname').on('click',function(){
+        if(confirm('是否退出账号')){
+        $.cookie('username','',{expiress:-1})
+        }
+    })
+    //购物车里的产品
     let id = $.cookie('id').split(',');
     let num = $.cookie('num').split(',')
     let sum = ''
@@ -54,7 +69,7 @@
                     ¥${parseInt(d[0].price)*j}.00
                 </div>
                 <div style="width:100px;" class="cart-operation td">
-                    <span class="cart-del-btn">删除</span>
+                    <span class="cart-del-btn" data-num="${d[0].id}">删除</span>
                 </div>
             </li>
             `
@@ -67,19 +82,11 @@
 
 }(jQuery)
 ;!function($){
-    //删除
-    $('.table.table-group').on('click','.cart-del-btn',function(){
-        // $('.cart-del-btn').on('click',function(){
-            console.log(this)
-        // })
-    })
-    //修改数量
     let num=''
-    //--
     $('.table.table-group').on('click','.minus',function(){
             num = $(this).next().val()
             num--
-            if(num<1){
+            if(num<=1){
                 $('.minus').addClass('disabled')
                 num=1
             }else{
@@ -130,13 +137,16 @@
     $('.left,.fixed-option>i,.ord-sell-title>i').on('mousedown',function(){
         if($('.cart-item-check-title').is('.cart-item-checked')){
             $('.cart-item-check-title').removeClass('cart-item-checked')
-            $('.cart-item-check').removeClass('cart-item-checked')            
+            $('.cart-item-check').removeClass('cart-item-checked')
+            spnum()          
         }else{
             $('.cart-item-check-title').addClass('cart-item-checked')
             $('.cart-item-check').addClass('cart-item-checked')
+            spnum()
         }
         // console.log($('.cart-item-check-title').is('.cart-item-checked'))
     })
+    //判断产品是否全选
     $('.table').on('click','.cart-item-check',function(){
         if($(this).is('.cart-item-checked')){
             $(this).removeClass('cart-item-checked')
@@ -144,13 +154,46 @@
                 // $('.cart-item-check-title').removeClass('cart-item-checked')
                 $('.left>i,.ord-sell-title>i,.fixed-option>i').removeClass('cart-item-checked')
             }
+            spnum()
         }else{
             $(this).addClass('cart-item-checked')
             if($('.table li').length == $('.table .cart-item-checked').length){
                 $('.cart-item-check-title').addClass('cart-item-checked')
                 $('.cart-item-check').addClass('cart-item-checked') 
             }
+            spnum()
         }
     })
-//判断产品是否全选
+    //选择产品数量
+    function spnum(){
+        $('.ins').html($('.table .cart-item-checked').length)
+    }
+    //删除产品
+    $('.table').on('click','.cart-del-btn',function(){
+        recok($(this).attr('data-num'))
+        location.reload()
+    })
+
+    function recok(reid){
+        let arrsid = []
+        let arrnum = []
+	
+		let $id = reid
+		if ($.cookie('id') && $.cookie('num')) {
+			arrsid = $.cookie('id').split(','); //将获取的cookie转换成数组
+			arrnum = $.cookie('num').split(',');
+		}
+			let id = arrsid.indexOf(reid)
+			arrsid.splice(id,1)
+			arrnum.splice(id,1)
+			$.cookie('id', arrsid.toString())
+			$.cookie('num', arrnum.toString())
+    }
+    //清空产品
+    $('.emptyDisabled').on('click',function(){
+        $.cookie('id','',{expiress:-1})
+        $.cookie('num','',{expiress:-1})
+        location.reload()
+        
+    })
 }(jQuery)

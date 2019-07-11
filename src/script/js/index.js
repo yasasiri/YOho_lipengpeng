@@ -89,14 +89,21 @@
 		}
 		mover(num) {
 			let Is = this
-			this.baimg.eq(num).addClass('banner-mark').siblings().removeClass('banner-mark')
+			// this.baimg.eq(num).addClass('banner-mark').siblings().removeClass('banner-mark')
+			this.baimg.addClass('banner-mark')
+
+			this.baimg.eq(num).stop().animate({
+				opacity:'1'
+			},1000).siblings().stop().animate({
+				opacity:'0'
+			},1000)
 		}
 		autoplay() {
 			let Is = this
 			clearInterval(Is.timer)
 			this.timer = setInterval(function () {
 				Is.right.click()
-			}, 2000)
+			}, 3000)
 		}
 	}
 	new banner().init()
@@ -122,8 +129,8 @@
 			[ <a id="out-url" href="javascript:;" class="loginout">退出</a> ]`)
 		}
 		$('.loginout').on('click',function(){
-			$.cookie('username', '', { expires: -1 });
-			location.reload()
+			if(confirm('是否退出账号')){$.cookie('username', '', { expires: -1 });
+			location.reload()}
 		})
 
 }(jQuery);
