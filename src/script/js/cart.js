@@ -6,13 +6,14 @@
     //判断账号是否登录
     if(!($.cookie('username'))){
         alert('请登录账号')
-        location.href='inde.html'
+        location.href='./index.html'
     }
     //退出账号
     $('.outname').on('click',function(){
         if(confirm('是否退出账号')){
         $.cookie('username','',{expiress:-1})
-        }
+        location.href='./index.html'
+    }
     })
     //购物车里的产品
     let id = $.cookie('id').split(',');

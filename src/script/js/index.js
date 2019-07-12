@@ -152,6 +152,7 @@
 	}
 	let $liu = $('.contain-third').has('.third-nav-wrapper')
 	// console.log($liu)
+	
 	$liu.children('a').on('click', function (e) {
 		if (this == e.target) {
 			// console.log(this)

@@ -54,7 +54,7 @@
             }).done(function(d){
                 if(d.name){
                     $.cookie('username', d.name, { expires: 7 })
-                    location.href='http://10.31.158.25/1905/YOho_lipengpeng/src/inde.html'
+                    location.href='http://10.31.158.25/1905/YOho_lipengpeng/dist/index.html'
                 }
             })
         }
@@ -70,7 +70,7 @@
             }).done(function(d){
                if(d.name){
                    $.cookie('username', d.name, { expires: 7 })
-                   location.href='http://10.31.158.25/1905/YOho_lipengpeng/src/inde.html'
+                   location.href='./index.html'
                }
             })
         }
